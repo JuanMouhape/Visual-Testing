@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Radio Button</name>
+   <tag></tag>
+   <elementGuidId>490bf7d7-6919-462f-b306-5f358e29d616</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.pattern-backgound.playgound-header</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1f91b4b8-2901-44b5-8bea-1f5de821de39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pattern-backgound playgound-header</value>
+      <webElementGuid>092e92b3-d7a7-43f0-9d26-ae8e163884d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Radio Button</value>
+      <webElementGuid>bd5f482c-b1fa-4c8e-b261-7c567178c699</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;pattern-backgound playgound-header&quot;]</value>
+      <webElementGuid>cd8d79c9-910f-4280-9b29-5da0143bd28a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div</value>
+      <webElementGuid>17e4fb46-2d01-47c7-9157-e5363e68bc7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elements'])[1]/preceding::div[2]</value>
+      <webElementGuid>e7c22822-8d61-40ef-bc08-04ca0123ab3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>3f0cc90c-6170-47ad-9726-f3cfd72fafa7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Radio Button' or . = 'Radio Button')]</value>
+      <webElementGuid>1f1d93b6-7676-47e0-b6c3-72cbedc456b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion 1,Chrome 111.0.0.0,,,2023-03-31 13:02:12,2023-03-31 13:04:48,"2m - 35,411s",FAILED
+,,,,,,,
+Test Cases/Bucles/Reto_Bucle_1,Chrome 111.0.0.0,,,2023-03-31 13:02:43,2023-03-31 13:02:50,"6,680s",FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-31 13:02:43,2023-03-31 13:02:48,"4,616s",FAILED
+Video,Chrome 111.0.0.0,,,2023-03-31 13:02:50,2023-03-31 13:02:50,"0,001s",PASSED
+,,,,,,,
+Test Cases/Bucles/Reto_Bucle_1 - Solucion 2,Chrome 111.0.0.0,,,2023-03-31 13:02:50,2023-03-31 13:04:48,"1m - 57,901s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-31 13:02:50,2023-03-31 13:02:57,"6,491s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 111.0.0.0,,,2023-03-31 13:02:57,2023-03-31 13:04:17,"1m - 19,790s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-31 13:04:17,2023-03-31 13:04:17,"0,282s",PASSED
+waitForPageLoad(30),Chrome 111.0.0.0,,,2023-03-31 13:04:17,2023-03-31 13:04:19,"2,223s",PASSED
+"for ([i = 1, i <= 3, (i++)])",Chrome 111.0.0.0,,,2023-03-31 13:04:19,2023-03-31 13:04:45,"25,487s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-31 13:04:45,2023-03-31 13:04:46,"1,030s",PASSED
+Video,Chrome 111.0.0.0,,,2023-03-31 13:04:48,2023-03-31 13:04:48,"0,001s",PASSED

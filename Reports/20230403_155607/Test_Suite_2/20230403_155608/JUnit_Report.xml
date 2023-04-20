@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_Suite_2" time="151.491" tests="6" failures="0" errors="0">
+   <testsuite name="Test_Suite_2" tests="6" failures="0" errors="0" time="151.491" skipped="0" timestamp="2023-04-03 15:56:19" hostname="admin - 192.168.0.7" id="Test Suites/Test_Suite_2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Proyectos\\Proyecto_Uno\\Reports\\20230403_155607\\Test_Suite_2\\20230403_155608"/>
+         <property name="logFiles" value="C:\\Katalon\\Proyectos\\Proyecto_Uno\\Reports\\20230403_155607\\Test_Suite_2\\20230403_155608\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 192.168.0.7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.7"/>
+         <property name="sessionId" value="d60bc9dcf864bf4243a0d519209017aa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navegador/Navegador" time="21.322" classname="Test Cases/Navegador/Navegador" status="PASSED">
+         <system-out><![CDATA[2023-04-03 15:56:20 - [TEST_CASE][PASSED] - Test Cases/Navegador/Navegador: Test Cases/Navegador/Navegador
+
+2023-04-03 15:56:20 - [TEST_STEP][PASSED] - openBrowser("https://demoqa.com/text-box"): Browser is opened with url: 'https://demoqa.com/text-box'
+
+2023-04-03 15:56:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-03 15:56:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-03 15:56:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoqa.com/text-box'
+
+2023-04-03 15:56:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-03 15:56:38 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-03 15:56:38 - [TEST_STEP][PASSED] - pageUrl = getUrl(): Current window's url is: 'https://demoqa.com/text-box'
+
+2023-04-03 15:56:38 - [MESSAGE][PASSED] - Current window's url is: 'https://demoqa.com/text-box'
+
+2023-04-03 15:56:38 - [TEST_STEP][PASSED] - print(pageUrl): null
+
+2023-04-03 15:56:38 - [TEST_STEP][PASSED] - Titulo = getWindowTitle(): Current window's title is: 'DEMOQA'
+
+2023-04-03 15:56:38 - [MESSAGE][PASSED] - Current window's title is: 'DEMOQA'
+
+2023-04-03 15:56:38 - [TEST_STEP][PASSED] - print("Titulo de la pagina: " + Titulo): null
+
+2023-04-03 15:56:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-03 15:56:39 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-03 15:56:41 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Navegador/Navegador' .
+
+2023-04-03 15:56:41 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Navegador/Navegador' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objeto_Xpath/Caso_xpath" time="24.941" classname="Test Cases/Objeto_Xpath/Caso_xpath" status="PASSED">
+         <system-out><![CDATA[2023-04-03 15:56:41 - [TEST_CASE][PASSED] - Test Cases/Objeto_Xpath/Caso_xpath: Test Cases/Objeto_Xpath/Caso_xpath
+
+2023-04-03 15:56:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-03 15:56:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-03 15:56:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-03 15:56:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-03 15:56:43 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2023-04-03 15:56:58 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2023-04-03 15:56:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-03 15:56:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-03 15:56:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object_xpath/Campo_nombre"), "Juan Cruz"): Text 'Juan Cruz' is set on object 'Object Repository/Object_xpath/Campo_nombre'
+
+2023-04-03 15:57:00 - [MESSAGE][PASSED] - Text 'Juan Cruz' is set on object 'Object Repository/Object_xpath/Campo_nombre'
+
+2023-04-03 15:57:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-03 15:57:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-03 15:57:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-03 15:57:04 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-03 15:57:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Objeto_Xpath/Caso_xpath' .
+
+2023-04-03 15:57:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Objeto_Xpath/Caso_xpath' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prueba_1/Caso_1" time="32.586" classname="Test Cases/Prueba_1/Caso_1" status="PASSED">
+         <system-out><![CDATA[2023-04-03 15:57:06 - [TEST_CASE][PASSED] - Test Cases/Prueba_1/Caso_1: Test Cases/Prueba_1/Caso_1
+
+2023-04-03 15:57:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-03 15:57:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-03 15:57:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-03 15:57:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-03 15:57:10 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2023-04-03 15:57:24 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2023-04-03 15:57:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-03 15:57:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-03 15:57:24 - [TEST_STEP][PASSED] - scrollToPosition(0, 120): Browser is scrolled to position x = 0, y = 120
+
+2023-04-03 15:57:24 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 120
+
+2023-04-03 15:57:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_1/Page_DEMOQA/div_Elements_card-up")): Object: 'Object Repository/Prueba_1/Page_DEMOQA/div_Elements_card-up' is clicked on
+
+2023-04-03 15:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_1/Page_DEMOQA/div_Elements_card-up' is clicked on
+
+2023-04-03 15:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_1/Page_DEMOQA/li_Text Box")): Object: 'Object Repository/Prueba_1/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-04-03 15:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_1/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-04-03 15:57:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_1/Page_DEMOQA/input_Full Name_userName"), "Juan Cruz"): Text 'Juan Cruz' is set on object 'Object Repository/Prueba_1/Page_DEMOQA/input_Full Name_userName'
+
+2023-04-03 15:57:29 - [MESSAGE][PASSED] - Text 'Juan Cruz' is set on object 'Object Repository/Prueba_1/Page_DEMOQA/input_Full Name_userName'
+
+2023-04-03 15:57:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_1/Page_DEMOQA/input_Email_userEmail"), "juancmouhape@gmail.com"): Text 'juancmouhape@gmail.com' is set on object 'Object Repository/Prueba_1/Page_DEMOQA/input_Email_userEmail'
+
+2023-04-03 15:57:30 - [MESSAGE][PASSED] - Text 'juancmouhape@gmail.com' is set on object 'Object Repository/Prueba_1/Page_DEMOQA/input_Email_userEmail'
+
+2023-04-03 15:57:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_1/Page_DEMOQA/textarea_Current Address_currentAddress"), "direccion_uno"): Text 'direccion_uno' is set on object 'Object Repository/Prueba_1/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-04-03 15:57:30 - [MESSAGE][PASSED] - Text 'direccion_uno' is set on object 'Object Repository/Prueba_1/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-04-03 15:57:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_1/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "direccion_dos"): Text 'direccion_dos' is set on object 'Object Repository/Prueba_1/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-04-03 15:57:31 - [MESSAGE][PASSED] - Text 'direccion_dos' is set on object 'Object Repository/Prueba_1/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-04-03 15:57:31 - [TEST_STEP][PASSED] - scrollToPosition(0, 240): Browser is scrolled to position x = 0, y = 240
+
+2023-04-03 15:57:31 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 240
+
+2023-04-03 15:57:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_1/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Prueba_1/Page_DEMOQA/button_Submit' is clicked on
+
+2023-04-03 15:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_1/Page_DEMOQA/button_Submit' is clicked on
+
+2023-04-03 15:57:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-03 15:57:35 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-03 15:57:38 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Prueba_1/Caso_1' .
+
+2023-04-03 15:57:38 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Prueba_1/Caso_1' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prueba_1/Caso_2" time="26.346" classname="Test Cases/Prueba_1/Caso_2" status="PASSED">
+         <system-out><![CDATA[2023-04-03 15:57:40 - [TEST_CASE][PASSED] - Test Cases/Prueba_1/Caso_2: Test Cases/Prueba_1/Caso_2
+
+2023-04-03 15:57:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-03 15:57:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-03 15:57:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-03 15:57:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-03 15:57:43 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2023-04-03 15:57:55 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2023-04-03 15:57:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-03 15:57:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-03 15:57:56 - [TEST_STEP][PASSED] - scrollToPosition(0, 120): Browser is scrolled to position x = 0, y = 120
+
+2023-04-03 15:57:56 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 120
+
+2023-04-03 15:57:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/div_Elements_card-up")): Object: 'Object Repository/Prueba_2/Page_DEMOQA/div_Elements_card-up' is clicked on
+
+2023-04-03 15:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_2/Page_DEMOQA/div_Elements_card-up' is clicked on
+
+2023-04-03 15:57:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/li_Text Box")): Object: 'Object Repository/Prueba_2/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-04-03 15:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_2/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-04-03 15:57:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/input_Full Name_userName"), "Juan Cruz"): Text 'Juan Cruz' is set on object 'Object Repository/Prueba_2/Page_DEMOQA/input_Full Name_userName'
+
+2023-04-03 15:57:59 - [MESSAGE][PASSED] - Text 'Juan Cruz' is set on object 'Object Repository/Prueba_2/Page_DEMOQA/input_Full Name_userName'
+
+2023-04-03 15:57:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/input_Email_userEmail"), "juancmouhape@gmail.com"): Text 'juancmouhape@gmail.com' is set on object 'Object Repository/Prueba_2/Page_DEMOQA/input_Email_userEmail'
+
+2023-04-03 15:58:00 - [MESSAGE][PASSED] - Text 'juancmouhape@gmail.com' is set on object 'Object Repository/Prueba_2/Page_DEMOQA/input_Email_userEmail'
+
+2023-04-03 15:58:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/textarea_Current Address_currentAddress"), "Dir uno"): Text 'Dir uno' is set on object 'Object Repository/Prueba_2/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-04-03 15:58:01 - [MESSAGE][PASSED] - Text 'Dir uno' is set on object 'Object Repository/Prueba_2/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-04-03 15:58:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "Dir dos"): Text 'Dir dos' is set on object 'Object Repository/Prueba_2/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-04-03 15:58:01 - [MESSAGE][PASSED] - Text 'Dir dos' is set on object 'Object Repository/Prueba_2/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-04-03 15:58:01 - [TEST_STEP][PASSED] - scrollToPosition(0, 240): Browser is scrolled to position x = 0, y = 240
+
+2023-04-03 15:58:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 240
+
+2023-04-03 15:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Prueba_2/Page_DEMOQA/button_Submit' is clicked on
+
+2023-04-03 15:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_2/Page_DEMOQA/button_Submit' is clicked on
+
+2023-04-03 15:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/div_Text Box")): Object: 'Object Repository/Prueba_2/Page_DEMOQA/div_Text Box' is clicked on
+
+2023-04-03 15:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Prueba_2/Page_DEMOQA/div_Text Box' is clicked on
+
+2023-04-03 15:58:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Prueba_2/Page_DEMOQA/div_Text Box"), "Text Box"): Actual text and expected text of test object 'Object Repository/Prueba_2/Page_DEMOQA/div_Text Box' are matched.
+
+2023-04-03 15:58:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Prueba_2/Page_DEMOQA/div_Text Box' are matched.
+
+2023-04-03 15:58:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-03 15:58:04 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-03 15:58:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Prueba_1/Caso_2' .
+
+2023-04-03 15:58:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Prueba_1/Caso_2' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reto_1/Reto_1" time="25.123" classname="Test Cases/Reto_1/Reto_1" status="PASSED">
+         <system-out><![CDATA[2023-04-03 15:58:06 - [TEST_CASE][PASSED] - Test Cases/Reto_1/Reto_1: Test Cases/Reto_1/Reto_1
+
+2023-04-03 15:58:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-03 15:58:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-03 15:58:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-03 15:58:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-03 15:58:08 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2023-04-03 15:58:22 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2023-04-03 15:58:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-03 15:58:22 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-03 15:58:22 - [TEST_STEP][PASSED] - scrollToPosition(0, 120): Browser is scrolled to position x = 0, y = 120
+
+2023-04-03 15:58:22 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 120
+
+2023-04-03 15:58:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/div_Elements_card-up")): Object: 'Object Repository/Reto_1/Page_DEMOQA/div_Elements_card-up' is clicked on
+
+2023-04-03 15:58:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_DEMOQA/div_Elements_card-up' is clicked on
+
+2023-04-03 15:58:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/li_Check Box")): Object: 'Object Repository/Reto_1/Page_DEMOQA/li_Check Box' is clicked on
+
+2023-04-03 15:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_DEMOQA/li_Check Box' is clicked on
+
+2023-04-03 15:58:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/svg_Book Store API_rct-icon rct-icon-uncheck")): Object: 'Object Repository/Reto_1/Page_DEMOQA/svg_Book Store API_rct-icon rct-icon-uncheck' is clicked on
+
+2023-04-03 15:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_DEMOQA/svg_Book Store API_rct-icon rct-icon-uncheck' is clicked on
+
+2023-04-03 15:58:25 - [TEST_STEP][PASSED] - scrollToPosition(0, 240): Browser is scrolled to position x = 0, y = 240
+
+2023-04-03 15:58:25 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 240
+
+2023-04-03 15:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/li_Radio Button")): Object: 'Object Repository/Reto_1/Page_DEMOQA/li_Radio Button' is clicked on
+
+2023-04-03 15:58:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_DEMOQA/li_Radio Button' is clicked on
+
+2023-04-03 15:58:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/label_Yes")): Object: 'Object Repository/Reto_1/Page_DEMOQA/label_Yes' is clicked on
+
+2023-04-03 15:58:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_DEMOQA/label_Yes' is clicked on
+
+2023-04-03 15:58:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/label_Impressive")): Object: 'Object Repository/Reto_1/Page_DEMOQA/label_Impressive' is clicked on
+
+2023-04-03 15:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_DEMOQA/label_Impressive' is clicked on
+
+2023-04-03 15:58:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/label_Yes")): Object: 'Object Repository/Reto_1/Page_DEMOQA/label_Yes' is clicked on
+
+2023-04-03 15:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_DEMOQA/label_Yes' is clicked on
+
+2023-04-03 15:58:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/div_Radio Button")): Object: 'Object Repository/Reto_1/Page_DEMOQA/div_Radio Button' is clicked on
+
+2023-04-03 15:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_DEMOQA/div_Radio Button' is clicked on
+
+2023-04-03 15:58:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Reto_1/Page_DEMOQA/div_Radio Button"), "Radio Button"): Actual text and expected text of test object 'Object Repository/Reto_1/Page_DEMOQA/div_Radio Button' are matched.
+
+2023-04-03 15:58:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Reto_1/Page_DEMOQA/div_Radio Button' are matched.
+
+2023-04-03 15:58:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-03 15:58:29 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-03 15:58:31 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Reto_1/Reto_1' .
+
+2023-04-03 15:58:31 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Reto_1/Reto_1' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reto_2_SpyWeb/Reto_2" time="19.618" classname="Test Cases/Reto_2_SpyWeb/Reto_2" status="PASSED">
+         <system-out><![CDATA[2023-04-03 15:58:31 - [TEST_CASE][PASSED] - Test Cases/Reto_2_SpyWeb/Reto_2: Test Cases/Reto_2_SpyWeb/Reto_2
+
+2023-04-03 15:58:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-03 15:58:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-03 15:58:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-03 15:58:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-03 15:58:33 - [TEST_STEP][PASSED] - navigateToUrl("http://opencart.abstracta.us/"): Navigate to 'http://opencart.abstracta.us/' successfully
+
+2023-04-03 15:58:35 - [MESSAGE][PASSED] - Navigate to 'http://opencart.abstracta.us/' successfully
+
+2023-04-03 15:58:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-03 15:58:35 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-03 15:58:35 - [TEST_STEP][PASSED] - scrollToPosition(0, 240): Browser is scrolled to position x = 0, y = 240
+
+2023-04-03 15:58:35 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 240
+
+2023-04-03 15:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Spy_web/Reto_2/Page_Your Store/a_MacBook")): Object: 'Object Repository/Spy_web/Reto_2/Page_Your Store/a_MacBook' is clicked on
+
+2023-04-03 15:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy_web/Reto_2/Page_Your Store/a_MacBook' is clicked on
+
+2023-04-03 15:58:38 - [TEST_STEP][PASSED] - click(findTestObject("Spy_web/Reto_2/Page_MacBook/img")): Object: 'Object Repository/Spy_web/Reto_2/Page_MacBook/img' is clicked on
+
+2023-04-03 15:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy_web/Reto_2/Page_MacBook/img' is clicked on
+
+2023-04-03 15:58:39 - [TEST_STEP][PASSED] - click(findTestObject("Spy_web/Reto_2/Page_MacBook/button_")): Object: 'Object Repository/Spy_web/Reto_2/Page_MacBook/button_' is clicked on
+
+2023-04-03 15:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy_web/Reto_2/Page_MacBook/button_' is clicked on
+
+2023-04-03 15:58:40 - [TEST_STEP][PASSED] - setText(findTestObject("Spy_web/Reto_2/Page_MacBook/input_Qty_quantity"), "2"): Text '2' is set on object 'Object Repository/Spy_web/Reto_2/Page_MacBook/input_Qty_quantity'
+
+2023-04-03 15:58:41 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Spy_web/Reto_2/Page_MacBook/input_Qty_quantity'
+
+2023-04-03 15:58:41 - [TEST_STEP][PASSED] - click(findTestObject("Spy_web/Reto_2/Page_MacBook/button_Add to Cart")): Object: 'Object Repository/Spy_web/Reto_2/Page_MacBook/button_Add to Cart' is clicked on
+
+2023-04-03 15:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy_web/Reto_2/Page_MacBook/button_Add to Cart' is clicked on
+
+2023-04-03 15:58:42 - [TEST_STEP][PASSED] - click(findTestObject("Spy_web/Reto_2/Page_MacBook/button_2 item(s) - 1,204.00")): Object: 'Object Repository/Spy_web/Reto_2/Page_MacBook/button_2 item(s) - 1,204.00' is clicked on
+
+2023-04-03 15:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy_web/Reto_2/Page_MacBook/button_2 item(s) - 1,204.00' is clicked on
+
+2023-04-03 15:58:43 - [TEST_STEP][PASSED] - click(findTestObject("Spy_web/Reto_2/Page_MacBook/strong_View Cart")): Object: 'Object Repository/Spy_web/Reto_2/Page_MacBook/strong_View Cart' is clicked on
+
+2023-04-03 15:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy_web/Reto_2/Page_MacBook/strong_View Cart' is clicked on
+
+2023-04-03 15:58:43 - [TEST_STEP][PASSED] - click(findTestObject("Spy_web/Reto_2/Page_Shopping Cart/h1_Use Gift Certificate                (0.00kg)")): Object: 'Object Repository/Spy_web/Reto_2/Page_Shopping Cart/h1_Use Gift Certificate                (0.00kg)' is clicked on
+
+2023-04-03 15:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy_web/Reto_2/Page_Shopping Cart/h1_Use Gift Certificate                (0.00kg)' is clicked on
+
+2023-04-03 15:58:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Spy_web/Reto_2/Page_Shopping Cart/h1_Use Gift Certificate                (0.00kg)"), "Use Gift Certificate  (0.00kg)"): Actual text and expected text of test object 'Object Repository/Spy_web/Reto_2/Page_Shopping Cart/h1_Use Gift Certificate                (0.00kg)' are matched.
+
+2023-04-03 15:58:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Spy_web/Reto_2/Page_Shopping Cart/h1_Use Gift Certificate                (0.00kg)' are matched.
+
+2023-04-03 15:58:44 - [TEST_STEP][PASSED] - scrollToPosition(0, 240): Browser is scrolled to position x = 0, y = 240
+
+2023-04-03 15:58:44 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 240
+
+2023-04-03 15:58:44 - [TEST_STEP][PASSED] - click(findTestObject("Spy_web/Reto_2/Page_Shopping Cart/a_Checkout")): Object: 'Object Repository/Spy_web/Reto_2/Page_Shopping Cart/a_Checkout' is clicked on
+
+2023-04-03 15:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy_web/Reto_2/Page_Shopping Cart/a_Checkout' is clicked on
+
+2023-04-03 15:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Spy_web/Reto_2/Page_Checkout/h1_Checkout")): Object: 'Object Repository/Spy_web/Reto_2/Page_Checkout/h1_Checkout' is clicked on
+
+2023-04-03 15:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy_web/Reto_2/Page_Checkout/h1_Checkout' is clicked on
+
+2023-04-03 15:58:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Spy_web/Reto_2/Page_Checkout/h1_Checkout"), "Checkout"): Actual text and expected text of test object 'Object Repository/Spy_web/Reto_2/Page_Checkout/h1_Checkout' are matched.
+
+2023-04-03 15:58:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Spy_web/Reto_2/Page_Checkout/h1_Checkout' are matched.
+
+2023-04-03 15:58:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-03 15:58:49 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-03 15:58:51 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Reto_2_SpyWeb/Reto_2' .
+
+2023-04-03 15:58:51 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Reto_2_SpyWeb/Reto_2' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-03 15:56:19 - [TEST_SUITE][PASSED] - Test_Suite_2: Test Cases/Reto_2_SpyWeb/Reto_2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

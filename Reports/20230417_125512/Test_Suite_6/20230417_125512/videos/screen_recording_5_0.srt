@@ -1,0 +1,20 @@
+1
+00:00:00,283 --> 00:00:01,528
+1. openBrowser("")
+
+2
+00:00:01,529 --> 00:00:02,568
+5. navigateToUrl("https://www.google.com/")
+
+3
+00:00:02,569 --> 00:00:02,864
+9. waitForPageLoad(30)
+
+4
+00:00:02,865 --> 00:00:03,011
+13. maximizeWindow()
+
+5
+00:00:03,011 --> 00:00:03,631
+17. setText(findTestObject("Google/Buscador_google"), "ferr")
+

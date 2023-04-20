@@ -1,0 +1,36 @@
+1
+00:00:00,002 --> 00:00:01,271
+1. openBrowser("")
+
+2
+00:00:01,272 --> 00:00:05,911
+5. navigateToUrl("https://demoqa.com/automation-practice-form")
+
+3
+00:00:05,911 --> 00:00:05,935
+9. waitForPageLoad(30)
+
+4
+00:00:05,935 --> 00:00:06,085
+13. maximizeWindow()
+
+5
+00:00:06,086 --> 00:00:07,628
+17. setText(findTestObject("Object Repository/Data_Excel/Page_DEMOQA/input_Name_firstName"), nombre)
+
+6
+00:00:07,629 --> 00:00:08,424
+21. setText(findTestObject("Object Repository/Data_Excel/Page_DEMOQA/input_Name_lastName"), apellido)
+
+7
+00:00:08,425 --> 00:00:09,162
+25. setText(findTestObject("Object Repository/Data_Excel/Page_DEMOQA/input_Email_userEmail"), email)
+
+8
+00:00:09,163 --> 00:00:13,167
+29. delay(4)
+
+9
+00:00:13,168 --> 00:00:13,835
+33. closeBrowser()
+

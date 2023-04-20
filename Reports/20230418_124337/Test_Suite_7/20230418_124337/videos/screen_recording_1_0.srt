@@ -1,0 +1,44 @@
+1
+00:00:00,420 --> 00:00:03,972
+1. openBrowser("")
+
+2
+00:00:03,984 --> 00:00:07,879
+5. navigateToUrl("https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx")
+
+3
+00:00:07,880 --> 00:00:08,104
+9. maximizeWindow()
+
+4
+00:00:08,105 --> 00:00:08,434
+13. waitForPageLoad(30)
+
+5
+00:00:08,435 --> 00:00:08,615
+17. scrollToPosition(0, 150)
+
+6
+00:00:08,616 --> 00:00:11,048
+21. click(findTestObject("Double_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_Island"))
+
+7
+00:00:11,050 --> 00:00:11,580
+25. waitForElementClickable(findTestObject("Double_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_Island"), 5)
+
+8
+00:00:11,582 --> 00:00:12,231
+29. doubleClick(findTestObject("Object Repository/Double_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_Island"))
+
+9
+00:00:12,231 --> 00:00:13,004
+33. takeScreenshot()
+
+10
+00:00:13,005 --> 00:00:15,149
+37. delay(2)
+
+11
+00:00:15,150 --> 00:00:15,867
+41. closeBrowser()
+

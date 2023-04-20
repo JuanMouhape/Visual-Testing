@@ -1,0 +1,156 @@
+1
+00:00:00,282 --> 00:00:01,576
+1. openBrowser("")
+
+2
+00:00:01,577 --> 00:00:02,512
+5. navigateToUrl("https://www.google.com/")
+
+3
+00:00:02,512 --> 00:00:02,655
+9. maximizeWindow()
+
+4
+00:00:02,656 --> 00:00:02,689
+13. waitForPageLoad(30)
+
+5
+00:00:02,690 --> 00:00:02,691
+17. res = 0
+
+6
+00:00:02,692 --> 00:00:02,693
+21. while (res != 8)
+
+7
+00:00:02,693 --> 00:00:02,698
+1. num = Math.random() * 5 - 1 + 1
+
+8
+00:00:02,699 --> 00:00:03,437
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+9
+00:00:03,437 --> 00:00:07,307
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+10
+00:00:07,307 --> 00:00:07,807
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+11
+00:00:07,808 --> 00:00:07,809
+1. num = Math.random() * 5 - 1 + 1
+
+12
+00:00:07,810 --> 00:00:08,579
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+13
+00:00:08,580 --> 00:00:12,449
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+14
+00:00:12,450 --> 00:00:12,946
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+15
+00:00:12,947 --> 00:00:12,948
+1. num = Math.random() * 5 - 1 + 1
+
+16
+00:00:12,949 --> 00:00:13,758
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+17
+00:00:13,759 --> 00:00:14,920
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+18
+00:00:14,921 --> 00:00:16,551
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+19
+00:00:16,551 --> 00:00:16,552
+1. num = Math.random() * 5 - 1 + 1
+
+20
+00:00:16,553 --> 00:00:17,660
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+21
+00:00:17,661 --> 00:00:19,091
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+22
+00:00:19,091 --> 00:00:21,171
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+23
+00:00:21,172 --> 00:00:21,173
+1. num = Math.random() * 5 - 1 + 1
+
+24
+00:00:21,174 --> 00:00:21,964
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+25
+00:00:21,965 --> 00:00:24,845
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+26
+00:00:24,846 --> 00:00:25,301
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+27
+00:00:25,301 --> 00:00:25,302
+1. num = Math.random() * 5 - 1 + 1
+
+28
+00:00:25,302 --> 00:00:26,060
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+29
+00:00:26,062 --> 00:00:27,271
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+30
+00:00:27,273 --> 00:00:28,750
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+31
+00:00:28,752 --> 00:00:28,753
+1. num = Math.random() * 5 - 1 + 1
+
+32
+00:00:28,753 --> 00:00:29,565
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+33
+00:00:29,566 --> 00:00:30,777
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+34
+00:00:30,779 --> 00:00:32,029
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+35
+00:00:32,030 --> 00:00:32,031
+1. num = Math.random() * 5 - 1 + 1
+
+36
+00:00:32,031 --> 00:00:33,034
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+37
+00:00:33,034 --> 00:00:34,588
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+38
+00:00:34,589 --> 00:00:36,239
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+39
+00:00:36,241 --> 00:00:36,955
+25. closeBrowser()
+

@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Reto_1/Page_DEMOQA/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.rct-icon.rct-icon-uncheck \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Reto_1/Page_DEMOQA/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Select/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva",
+      "brokenLocator": "//a[@id\u003d\u0027u_0_0_TQ\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Crear cuenta nueva\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Select/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Wait/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva",
+      "brokenLocator": "//a[@id\u003d\u0027u_0_0_UA\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Crear cuenta nueva\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Wait/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Wait/Page_Facebook - Entrar o registrarse/input_No hemos podido crear tu cuentaNo hem_857a2b",
+      "brokenLocator": "//input[@id\u003d\u0027u_3_g_tB\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Wait/Page_Facebook - Entrar o registrarse/input_No hemos podido crear tu cuentaNo hem_857a2b_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/While/Page_Google/input__q",
+      "brokenLocator": "//input[@name\u003d\u0027q\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/While/Page_Google/input__q",
+      "brokenLocator": "//input[@name\u003d\u0027q\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230403_124623"
+    }
+  ]
+}

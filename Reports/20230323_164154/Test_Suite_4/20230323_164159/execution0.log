@@ -1,0 +1,2067 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-23T16:42:32</date>
+  <millis>1679600552698</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Test_Suite_4</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">3</property>
+  <property name="name">Test_Suite_4</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Test_Suite_4</property>
+</record>
+<record>
+  <date>2023-03-23T16:42:32</date>
+  <millis>1679600552723</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = admin - NTK0999</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">admin - NTK0999</property>
+</record>
+<record>
+  <date>2023-03-23T16:42:32</date>
+  <millis>1679600552725</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2023-03-23T16:42:32</date>
+  <millis>1679600552726</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.29.88</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.29.88</property>
+</record>
+<record>
+  <date>2023-03-23T16:42:32</date>
+  <millis>1679600552726</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.6.0.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.6.0.208</property>
+</record>
+<record>
+  <date>2023-03-23T16:42:33</date>
+  <millis>1679600553368</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Select/Select_Combo</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Select/Select_Combo</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Select/Select_Combo</property>
+  <property name="source">C:\Katalon\Proyectos\Proyecto_Uno\Test Cases\Select\Select_Combo.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-03-23T16:42:34</date>
+  <millis>1679600554008</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tiempo = 2</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:42:35</date>
+  <millis>1679600555371</millis>
+  <sequence>8</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-03-23T16:42:36</date>
+  <millis>1679600556277</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Edge Chromium&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:42:37</date>
+  <millis>1679600557224</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:01</date>
+  <millis>1679600581061</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 0750723c9311c89d6758cf6209e15cef</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">0750723c9311c89d6758cf6209e15cef</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:01</date>
+  <millis>1679600581152</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Edge Chromium 111</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Edge Chromium 111</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:01</date>
+  <millis>1679600581153</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:01</date>
+  <millis>1679600581154</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:01</date>
+  <millis>1679600581156</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:01</date>
+  <millis>1679600581218</millis>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:01</date>
+  <millis>1679600581219</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:01</date>
+  <millis>1679600581220</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(&amp;quot;https://www.facebook.com/&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:03</date>
+  <millis>1679600583733</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.facebook.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:03</date>
+  <millis>1679600583734</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(&amp;quot;https://www.facebook.com/&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:03</date>
+  <millis>1679600583735</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:03</date>
+  <millis>1679600583955</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:03</date>
+  <millis>1679600583956</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:03</date>
+  <millis>1679600583956</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Select/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:05</date>
+  <millis>1679600585571</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //a[@id=&amp;apos;u_0_0_TQ&amp;apos;]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:05</date>
+  <millis>1679600585582</millis>
+  <sequence>40</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed to find element with id &amp;apos;Object Repository/Select/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva&amp;apos;. Try using Self-healing.</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:07</date>
+  <millis>1679600587849</millis>
+  <sequence>44</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] The current locator of test object &amp;apos;Object Repository/Select/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva&amp;apos; was broken. Propose an alternative one: &amp;apos;//a[contains(text(),&amp;apos;Crear cuenta nueva&amp;apos;)]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:08</date>
+  <millis>1679600588656</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Select/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:08</date>
+  <millis>1679600588658</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Select/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:08</date>
+  <millis>1679600588659</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByLabel(findTestObject(&amp;quot;Select/Page_Facebook - Entrar o registrarse/Combo_dia&amp;quot;), &amp;quot;9&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:24</date>
+  <millis>1679600604421</millis>
+  <sequence>59</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with label &amp;apos;9&amp;apos; are selected in object &amp;apos;Object Repository/Select/Page_Facebook - Entrar o registrarse/Combo_dia&amp;apos; </message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:24</date>
+  <millis>1679600604424</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByLabel(findTestObject(&amp;quot;Select/Page_Facebook - Entrar o registrarse/Combo_dia&amp;quot;), &amp;quot;9&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:24</date>
+  <millis>1679600604425</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(tiempo)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:26</date>
+  <millis>1679600606601</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:26</date>
+  <millis>1679600606603</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(tiempo)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:26</date>
+  <millis>1679600606604</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot(&amp;quot;C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\test.png&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:31</date>
+  <millis>1679600611355</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Taking screenshot successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="attachment">C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\test.png</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:31</date>
+  <millis>1679600611356</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot(&amp;quot;C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\test.png&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:31</date>
+  <millis>1679600611356</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex(findTestObject(&amp;quot;Select/Page_Facebook - Entrar o registrarse/Combo_dia&amp;quot;), 3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">36</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:33</date>
+  <millis>1679600613462</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [3] are selected on object &amp;apos;Object Repository/Select/Page_Facebook - Entrar o registrarse/Combo_dia&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:33</date>
+  <millis>1679600613463</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex(findTestObject(&amp;quot;Select/Page_Facebook - Entrar o registrarse/Combo_dia&amp;quot;), 3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:33</date>
+  <millis>1679600613463</millis>
+  <sequence>87</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(tiempo)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">38</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:35</date>
+  <millis>1679600615484</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:35</date>
+  <millis>1679600615488</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(tiempo)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:35</date>
+  <millis>1679600615489</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(&amp;quot;Select/Page_Facebook - Entrar o registrarse/Combo_dia&amp;quot;), &amp;quot;9&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">40</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:36</date>
+  <millis>1679600616452</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;9&amp;apos; are selected in object &amp;apos;Object Repository/Select/Page_Facebook - Entrar o registrarse/Combo_dia&amp;apos; </message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:36</date>
+  <millis>1679600616453</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(&amp;quot;Select/Page_Facebook - Entrar o registrarse/Combo_dia&amp;quot;), &amp;quot;9&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:36</date>
+  <millis>1679600616454</millis>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(tiempo)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">42</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:38</date>
+  <millis>1679600618469</millis>
+  <sequence>106</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:38</date>
+  <millis>1679600618470</millis>
+  <sequence>107</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(tiempo)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:38</date>
+  <millis>1679600618470</millis>
+  <sequence>108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">44</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:41</date>
+  <millis>1679600621591</millis>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:41</date>
+  <millis>1679600621593</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:41</date>
+  <millis>1679600621594</millis>
+  <sequence>112</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Select/Select_Combo</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:41</date>
+  <millis>1679600621600</millis>
+  <sequence>113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Select/Select_Combo</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[
+  {
+    &quot;displayReportName&quot;: &quot;(Default) tiemp...&quot;,
+    &quot;value&quot;: &quot;2&quot;,
+    &quot;name&quot;: &quot;(Default) tiempo&quot;,
+    &quot;masked&quot;: false
+  }
+]</property>
+  <property name="applitools">false</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:41</date>
+  <millis>1679600621601</millis>
+  <sequence>114</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message></message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:41</date>
+  <millis>1679600621604</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>===================== Self-healing Report ====================</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:41</date>
+  <millis>1679600621608</millis>
+  <sequence>116</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:41</date>
+  <millis>1679600621609</millis>
+  <sequence>117</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:41</date>
+  <millis>1679600621610</millis>
+  <sequence>118</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>==============================================================</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:41</date>
+  <millis>1679600621679</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Set_text_Combo_text/Set_text</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Set_text_Combo_text/Set_text</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Set_text_Combo_text/Set_text</property>
+  <property name="source">C:\Katalon\Proyectos\Proyecto_Uno\Test Cases\Set_text_Combo_text\Set_text.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:41</date>
+  <millis>1679600621755</millis>
+  <sequence>121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tiempo = 2</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:42</date>
+  <millis>1679600622914</millis>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:42</date>
+  <millis>1679600622959</millis>
+  <sequence>124</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Edge Chromium&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:44</date>
+  <millis>1679600624081</millis>
+  <sequence>126</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:47</date>
+  <millis>1679600627450</millis>
+  <sequence>128</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 2ee2467faf5b0feff9a953925696d14a</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">2ee2467faf5b0feff9a953925696d14a</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:47</date>
+  <millis>1679600627502</millis>
+  <sequence>129</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Edge Chromium 111</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Edge Chromium 111</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:47</date>
+  <millis>1679600627503</millis>
+  <sequence>130</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:47</date>
+  <millis>1679600627503</millis>
+  <sequence>131</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:47</date>
+  <millis>1679600627505</millis>
+  <sequence>132</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2023-03-23T16:43:47</date>
+  <millis>1679600627525</millis>
+  <sequence>133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:43:47</date>
+  <millis>1679600627526</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:43:47</date>
+  <millis>1679600627526</millis>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(&amp;quot;https://demoqa.com/automation-practice-form&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:05</date>
+  <millis>1679600645002</millis>
+  <sequence>138</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://demoqa.com/automation-practice-form&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:44:05</date>
+  <millis>1679600645008</millis>
+  <sequence>139</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(&amp;quot;https://demoqa.com/automation-practice-form&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:44:05</date>
+  <millis>1679600645009</millis>
+  <sequence>140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:05</date>
+  <millis>1679600645858</millis>
+  <sequence>142</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:44:05</date>
+  <millis>1679600645861</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:44:05</date>
+  <millis>1679600645861</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Set_text/Page_DEMOQA/input_Name_firstName&amp;quot;), &amp;quot;Juan Cruz&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:11</date>
+  <millis>1679600651796</millis>
+  <sequence>160</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Juan Cruz&amp;apos; is set on object &amp;apos;Object Repository/Set_text/Page_DEMOQA/input_Name_firstName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:44:11</date>
+  <millis>1679600651798</millis>
+  <sequence>161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Set_text/Page_DEMOQA/input_Name_firstName&amp;quot;), &amp;quot;Juan Cruz&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:44:11</date>
+  <millis>1679600651799</millis>
+  <sequence>162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(tiempo)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:13</date>
+  <millis>1679600653815</millis>
+  <sequence>164</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:44:13</date>
+  <millis>1679600653817</millis>
+  <sequence>165</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(tiempo)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:44:13</date>
+  <millis>1679600653817</millis>
+  <sequence>166</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clearText(findTestObject(&amp;quot;Set_text/Page_DEMOQA/input_Name_firstName&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:15</date>
+  <millis>1679600655859</millis>
+  <sequence>175</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Set_text/Page_DEMOQA/input_Name_firstName&amp;apos; is cleared</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.clearText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:44:15</date>
+  <millis>1679600655861</millis>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clearText(findTestObject(&amp;quot;Set_text/Page_DEMOQA/input_Name_firstName&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:44:15</date>
+  <millis>1679600655861</millis>
+  <sequence>177</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(&amp;quot;Set_text/Page_DEMOQA/input_Name_firstName&amp;quot;), &amp;quot;Pedro&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:17</date>
+  <millis>1679600657557</millis>
+  <sequence>185</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;Pedro&amp;apos; sent to object: &amp;apos;Object Repository/Set_text/Page_DEMOQA/input_Name_firstName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:44:17</date>
+  <millis>1679600657558</millis>
+  <sequence>186</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(&amp;quot;Set_text/Page_DEMOQA/input_Name_firstName&amp;quot;), &amp;quot;Pedro&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:44:17</date>
+  <millis>1679600657559</millis>
+  <sequence>187</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(tiempo)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:19</date>
+  <millis>1679600659571</millis>
+  <sequence>189</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-03-23T16:44:19</date>
+  <millis>1679600659573</millis>
+  <sequence>190</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(tiempo)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:44:19</date>
+  <millis>1679600659573</millis>
+  <sequence>191</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : check(findTestObject(&amp;quot;Set_text/Page_DEMOQA/label_Male&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">36</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:20</date>
+  <millis>1679600660830</millis>
+  <sequence>198</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed to find element with id &amp;apos;Object Repository/Set_text/Page_DEMOQA/label_Male&amp;apos;. Try using Self-healing.</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:44:20</date>
+  <millis>1679600660933</millis>
+  <sequence>201</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;NTK0999&amp;apos;, ip: &amp;apos;192.168.29.88&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//div[@id=&amp;apos;genterWrapper&amp;apos;]/div[2]/div/label}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchWindowException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//div[@id=&apos;genterWrapper&apos;]/div[2]/div/label}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElementsWithSmartXPath(WebUiCommonHelper.java:1068)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:803)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$11.call(Unknown Source)
+	at Set_text.run(Set_text:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679600519794.run(TempTestSuite1679600519794.groovy:36)
+</property>
+  <property name="failed.exception.message">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//div[@id=&apos;genterWrapper&apos;]/div[2]/div/label}</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:21</date>
+  <millis>1679600661025</millis>
+  <sequence>205</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;NTK0999&amp;apos;, ip: &amp;apos;192.168.29.88&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//*[(text() = &amp;apos;Male&amp;apos; or . = &amp;apos;Male&amp;apos;)]}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchWindowException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//*[(text() = &apos;Male&apos; or . = &apos;Male&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1022)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:906)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:803)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$11.call(Unknown Source)
+	at Set_text.run(Set_text:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679600519794.run(TempTestSuite1679600519794.groovy:36)
+</property>
+  <property name="failed.exception.message">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//*[(text() = &apos;Male&apos; or . = &apos;Male&apos;)]}</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:21</date>
+  <millis>1679600661143</millis>
+  <sequence>209</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;NTK0999&amp;apos;, ip: &amp;apos;192.168.29.88&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=css selector, value=label.custom-control-label}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchWindowException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=css selector, value=label.custom-control-label}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1022)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:908)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:803)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$11.call(Unknown Source)
+	at Set_text.run(Set_text:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679600519794.run(TempTestSuite1679600519794.groovy:36)
+</property>
+  <property name="failed.exception.message">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=css selector, value=label.custom-control-label}</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:21</date>
+  <millis>1679600661168</millis>
+  <sequence>211</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Cannot take screenshot</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchWindowException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$11.call(Unknown Source)
+	at Set_text.run(Set_text:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679600519794.run(TempTestSuite1679600519794.groovy:36)
+</property>
+  <property name="failed.exception.message">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:21</date>
+  <millis>1679600661257</millis>
+  <sequence>215</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to check object &amp;apos;Object Repository/Set_text/Page_DEMOQA/label_Male&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object &amp;apos;Object Repository/Set_text/Page_DEMOQA/label_Male&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$11.call(Unknown Source)
+	at Set_text.run(Set_text:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679600519794.run(TempTestSuite1679600519794.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;NTK0999&amp;apos;, ip: &amp;apos;192.168.29.88&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//div[@id=&amp;apos;genterWrapper&amp;apos;]/div[2]/div/label}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1022)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:912)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:733)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$11.call(Unknown Source)
+	at Script1679509595584.run(Script1679509595584.groovy:36)
+	... 13 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchWindowException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//div[@id=&apos;genterWrapper&apos;]/div[2]/div/label}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1022)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:912)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:733)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$11.call(Unknown Source)
+	at Set_text.run(Set_text:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679600519794.run(TempTestSuite1679600519794.groovy:36)
+</property>
+  <property name="failed.exception.message">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//div[@id=&apos;genterWrapper&apos;]/div[2]/div/label}</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:21</date>
+  <millis>1679600661273</millis>
+  <sequence>218</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : check(findTestObject(&amp;quot;Set_text/Page_DEMOQA/label_Male&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-03-23T16:44:21</date>
+  <millis>1679600661287</millis>
+  <sequence>221</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Set_text_Combo_text/Set_text FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object &amp;apos;Object Repository/Set_text/Page_DEMOQA/label_Male&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$11.call(Unknown Source)
+	at Set_text.run(Set_text:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679600519794.run(TempTestSuite1679600519794.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;NTK0999&amp;apos;, ip: &amp;apos;192.168.29.88&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//div[@id=&amp;apos;genterWrapper&amp;apos;]/div[2]/div/label}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1022)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:912)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:733)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Set_text/Page_DEMOQA/label_Male'</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.CheckKeyword</class>
+      <method>check</method>
+      <line>88</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.CheckKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>check</method>
+      <line>1069</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$11</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Set_text</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1679600519794</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//div[@id=&apos;genterWrapper&apos;]/div[2]/div/label}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1022)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:912)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:733)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$11.call(Unknown Source)
+	at Set_text.run(Set_text:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679600519794.run(TempTestSuite1679600519794.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchWindowException</property>
+  <property name="failed.exception.message">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=111.0.1661.44)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;NTK0999&apos;, ip: &apos;192.168.29.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58531}, msedge: {msedgedriverVersion: 110.0.1587.11 (840bcb5ca898..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee2467faf5b0feff9a953925696d14a
+*** Element info: {Using=xpath, value=//div[@id=&apos;genterWrapper&apos;]/div[2]/div/label}</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:21</date>
+  <millis>1679600661322</millis>
+  <sequence>223</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Set_text_Combo_text/Set_text</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[
+  {
+    &quot;displayReportName&quot;: &quot;(Default) tiemp...&quot;,
+    &quot;value&quot;: &quot;2&quot;,
+    &quot;name&quot;: &quot;(Default) tiempo&quot;,
+    &quot;masked&quot;: false
+  }
+]</property>
+  <property name="applitools">false</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:21</date>
+  <millis>1679600661396</millis>
+  <sequence>224</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Reto_Xpath/Reto_xpath</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Reto_Xpath/Reto_xpath</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Reto_Xpath/Reto_xpath</property>
+  <property name="source">C:\Katalon\Proyectos\Proyecto_Uno\Test Cases\Reto_Xpath\Reto_xpath.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:23</date>
+  <millis>1679600663611</millis>
+  <sequence>226</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-03-23T16:44:23</date>
+  <millis>1679600663630</millis>
+  <sequence>228</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

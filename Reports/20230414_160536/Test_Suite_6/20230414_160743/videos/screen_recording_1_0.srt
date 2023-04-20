@@ -1,0 +1,28 @@
+1
+00:00:00,327 --> 00:00:08,069
+1. openBrowser("https://demoqa.com/text-box")
+
+2
+00:00:08,082 --> 00:00:08,274
+5. maximizeWindow()
+
+3
+00:00:08,276 --> 00:00:08,342
+9. pageUrl = getUrl()
+
+4
+00:00:08,343 --> 00:00:08,354
+13. print(pageUrl)
+
+5
+00:00:08,356 --> 00:00:08,491
+17. Titulo = getWindowTitle()
+
+6
+00:00:08,491 --> 00:00:08,496
+21. print("Titulo de la pagina: " + Titulo)
+
+7
+00:00:08,498 --> 00:00:09,269
+25. closeBrowser()
+

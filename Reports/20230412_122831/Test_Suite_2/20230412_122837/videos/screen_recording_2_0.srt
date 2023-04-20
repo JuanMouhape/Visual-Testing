@@ -1,0 +1,24 @@
+1
+00:00:00,351 --> 00:00:02,439
+1. openBrowser("")
+
+2
+00:00:02,440 --> 00:00:07,627
+5. navigateToUrl("https://demoqa.com/text-box")
+
+3
+00:00:07,629 --> 00:00:07,764
+9. maximizeWindow()
+
+4
+00:00:07,765 --> 00:00:10,346
+13. setText(findTestObject("Object_xpath/Campo_nombre"), "Juan Cruz")
+
+5
+00:00:10,347 --> 00:00:13,379
+17. delay(3)
+
+6
+00:00:13,381 --> 00:00:14,026
+21. closeBrowser()
+

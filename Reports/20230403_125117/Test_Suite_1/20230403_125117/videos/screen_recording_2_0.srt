@@ -1,0 +1,36 @@
+1
+00:00:00,586 --> 00:00:02,772
+1. openBrowser("")
+
+2
+00:00:02,774 --> 00:00:16,319
+5. navigateToUrl("https://demoqa.com/automation-practice-form")
+
+3
+00:00:16,321 --> 00:00:16,519
+9. waitForPageLoad(30)
+
+4
+00:00:16,520 --> 00:00:16,825
+13. maximizeWindow()
+
+5
+00:00:16,826 --> 00:00:17,302
+17. focus(findTestObject("Focus/nombre"))
+
+6
+00:00:17,303 --> 00:00:20,310
+21. delay(3)
+
+7
+00:00:20,311 --> 00:00:20,761
+25. focus(findTestObject("Focus/apellido"))
+
+8
+00:00:20,762 --> 00:00:25,773
+29. delay(5)
+
+9
+00:00:25,774 --> 00:00:26,483
+33. closeBrowser()
+

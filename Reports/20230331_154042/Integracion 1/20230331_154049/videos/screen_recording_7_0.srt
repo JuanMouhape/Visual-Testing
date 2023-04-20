@@ -1,0 +1,36 @@
+1
+00:00:00,242 --> 00:00:01,515
+1. openBrowser("")
+
+2
+00:00:01,515 --> 00:00:02,360
+5. navigateToUrl("https://www.google.com/")
+
+3
+00:00:02,361 --> 00:00:02,384
+9. waitForPageLoad(30)
+
+4
+00:00:02,384 --> 00:00:02,521
+13. maximizeWindow()
+
+5
+00:00:02,522 --> 00:00:03,225
+17. setText(findTestObject("Google/Buscador_google"), "ferr")
+
+6
+00:00:03,225 --> 00:00:03,858
+21. waitForElementVisible(findTestObject("Google/Ferrari"), 5)
+
+7
+00:00:03,859 --> 00:00:09,176
+25. click(findTestObject("Google/Ferrari"))
+
+8
+00:00:09,177 --> 00:00:11,192
+29. delay(2)
+
+9
+00:00:11,193 --> 00:00:11,827
+33. closeBrowser()
+

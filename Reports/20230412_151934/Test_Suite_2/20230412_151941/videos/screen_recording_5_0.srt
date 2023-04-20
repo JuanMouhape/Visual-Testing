@@ -1,0 +1,60 @@
+1
+00:00:00,139 --> 00:00:01,463
+1. openBrowser("")
+
+2
+00:00:01,464 --> 00:00:06,686
+5. navigateToUrl("https://demoqa.com/")
+
+3
+00:00:06,687 --> 00:00:06,826
+9. maximizeWindow()
+
+4
+00:00:06,827 --> 00:00:06,845
+13. scrollToPosition(0, 120)
+
+5
+00:00:06,845 --> 00:00:07,813
+17. click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/div_Elements_card-up"))
+
+6
+00:00:07,813 --> 00:00:09,503
+21. click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/li_Check Box"))
+
+7
+00:00:09,503 --> 00:00:09,992
+25. click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/svg_Book Store API_rct-icon rct-icon-uncheck"))
+
+8
+00:00:09,992 --> 00:00:10,009
+29. scrollToPosition(0, 240)
+
+9
+00:00:10,009 --> 00:00:10,489
+33. click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/li_Radio Button"))
+
+10
+00:00:10,489 --> 00:00:11,100
+37. click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/label_Yes"))
+
+11
+00:00:11,100 --> 00:00:11,604
+41. click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/label_Impressive"))
+
+12
+00:00:11,604 --> 00:00:12,093
+45. click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/label_Yes"))
+
+13
+00:00:12,094 --> 00:00:12,687
+49. click(findTestObject("Object Repository/Reto_1/Page_DEMOQA/div_Radio Button"))
+
+14
+00:00:12,687 --> 00:00:13,021
+53. verifyElementText(findTestObject("Reto_1/Page_DEMOQA/div_Radio Button"), "Radio Button")
+
+15
+00:00:13,022 --> 00:00:13,635
+57. closeBrowser()
+

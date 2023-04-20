@@ -1,0 +1,60 @@
+1
+00:00:00,372 --> 00:00:02,466
+1. openBrowser("")
+
+2
+00:00:02,467 --> 00:00:03,348
+5. navigateToUrl("https://testsheepnz.github.io/BasicCalculator.html")
+
+3
+00:00:03,349 --> 00:00:03,514
+9. maximizeWindow()
+
+4
+00:00:03,515 --> 00:00:04,317
+13. setText(findTestObject("Object Repository/Reto_Select/Page_Basic Calculator/number1"), "5")
+
+5
+00:00:04,318 --> 00:00:05,103
+17. setText(findTestObject("Object Repository/Reto_Select/Page_Basic Calculator/number2"), "5")
+
+6
+00:00:05,105 --> 00:00:06,238
+21. selectOptionByValue(findTestObject("Object Repository/Reto_Select/Page_Basic Calculator/combo"), "0", true)
+
+7
+00:00:06,240 --> 00:00:06,678
+25. click(findTestObject("Object Repository/Reto_Select/Page_Basic Calculator/calculateButton"))
+
+8
+00:00:06,679 --> 00:00:08,687
+29. delay(2)
+
+9
+00:00:08,687 --> 00:00:09,378
+33. setText(findTestObject("Object Repository/Reto_Select/Page_Basic Calculator/number1"), "10")
+
+10
+00:00:09,379 --> 00:00:10,089
+37. setText(findTestObject("Object Repository/Reto_Select/Page_Basic Calculator/number2"), "2")
+
+11
+00:00:10,091 --> 00:00:11,327
+41. selectOptionByValue(findTestObject("Object Repository/Reto_Select/Page_Basic Calculator/combo"), "3", true)
+
+12
+00:00:11,328 --> 00:00:11,722
+45. click(findTestObject("Object Repository/Reto_Select/Page_Basic Calculator/calculateButton"))
+
+13
+00:00:11,723 --> 00:00:13,743
+49. delay(2)
+
+14
+00:00:13,745 --> 00:00:15,763
+53. delay(2)
+
+15
+00:00:15,764 --> 00:00:16,462
+57. closeBrowser()
+

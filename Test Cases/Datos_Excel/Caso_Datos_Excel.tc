@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Caso_Datos_Excel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c93f5068-9a23-4805-b87c-8f9114b2253c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a845afb6-ef47-4c9b-a829-09715d4ad4d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a636370-d808-45f0-aff8-ac8bda33c0ef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26649f60-1490-4ab7-bbf5-8240a1ac3ffb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Juan Cruz'</defaultValue>
+      <description></description>
+      <id>a845afb6-ef47-4c9b-a829-09715d4ad4d0</id>
+      <masked>false</masked>
+      <name>nombre</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mouhape'</defaultValue>
+      <description></description>
+      <id>0a636370-d808-45f0-aff8-ac8bda33c0ef</id>
+      <masked>false</masked>
+      <name>apellido</name>
+   </variable>
+   <variable>
+      <defaultValue>'juancmouhape@gmail.com'</defaultValue>
+      <description></description>
+      <id>26649f60-1490-4ab7-bbf5-8240a1ac3ffb</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

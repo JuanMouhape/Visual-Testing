@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_Suite_1" time="31.784" tests="2" failures="1" errors="0">
+   <testsuite name="Test_Suite_1" tests="2" failures="1" errors="0" time="31.784" skipped="0" timestamp="2023-04-18 12:41:40" hostname="admin - NTK0999" id="Test Suites/Test_Suite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Certificacion\\ProyectoCertificacion\\Reports\\20230418_124124\\Test_Suite_1\\20230418_124124"/>
+         <property name="logFiles" value="C:\\Katalon\\Certificacion\\ProyectoCertificacion\\Reports\\20230418_124124\\Test_Suite_1\\20230418_124124\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Practice Form.png"/>
+         <property name="hostName" value="admin - NTK0999"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.7"/>
+         <property name="sessionId" value="06d95e3737fa9af148e64a693215667d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Carga_Archivo/Carga_Archivo" time="10.589" classname="Test Cases/Carga_Archivo/Carga_Archivo" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Carga_Archivo/Carga_Archivo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more
+"/>
+         <system-out><![CDATA[2023-04-18 12:41:41 - [TEST_CASE][FAILED] - Test Cases/Carga_Archivo/Carga_Archivo: Test Cases/Carga_Archivo/Carga_Archivo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more
+
+
+2023-04-18 12:41:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-18 12:41:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-18 12:41:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-18 12:41:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-18 12:41:47 - [TEST_STEP][PASSED] - navigateToUrl("https://testpages.herokuapp.com/styled/file-upload-test.html"): Navigate to 'https://testpages.herokuapp.com/styled/file-upload-test.html' successfully
+
+2023-04-18 12:41:48 - [MESSAGE][PASSED] - Navigate to 'https://testpages.herokuapp.com/styled/file-upload-test.html' successfully
+
+2023-04-18 12:41:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-18 12:41:49 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-18 12:41:49 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Carga_Archivo/Page_Upload a File/Cargar"), "C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\Imagen de WhatsApp 2022-11-14 a las 14.26.24.jpg"): File 'C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\Imagen de WhatsApp 2022-11-14 a las 14.26.24.jpg' sent to object: 'Object Repository/Carga_Archivo/Page_Upload a File/Cargar'
+
+2023-04-18 12:41:49 - [MESSAGE][PASSED] - File 'C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\Imagen de WhatsApp 2022-11-14 a las 14.26.24.jpg' sent to object: 'Object Repository/Carga_Archivo/Page_Upload a File/Cargar'
+
+2023-04-18 12:41:49 - [TEST_STEP][FAILED] - delay(tiempo): Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+)
+
+2023-04-18 12:41:49 - [MESSAGE][FAILED] - Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+)
+
+2023-04-18 12:41:51 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Carga_Archivo/Carga_Archivo' .
+
+2023-04-18 12:41:51 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Carga_Archivo/Carga_Archivo' .]]></system-out>
+         <system-err><![CDATA[2023-04-18 12:41:41 - [TEST_CASE][FAILED] - Test Cases/Carga_Archivo/Carga_Archivo: Test Cases/Carga_Archivo/Carga_Archivo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Focus/Focus" time="20.824" classname="Test Cases/Focus/Focus" status="PASSED">
+         <system-out><![CDATA[2023-04-18 12:41:51 - [TEST_CASE][PASSED] - Test Cases/Focus/Focus: Test Cases/Focus/Focus
+
+2023-04-18 12:41:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-18 12:41:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-18 12:41:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-18 12:41:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-18 12:41:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-18 12:41:54 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2023-04-18 12:41:59 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2023-04-18 12:41:59 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-04-18 12:41:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-04-18 12:41:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-18 12:41:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-18 12:41:59 - [TEST_STEP][PASSED] - focus(findTestObject("Focus/nombre")): Object: 'Object Repository/Focus/nombre' is focused
+
+2023-04-18 12:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Focus/nombre' is focused
+
+2023-04-18 12:42:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-18 12:42:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-18 12:42:03 - [TEST_STEP][PASSED] - focus(findTestObject("Focus/apellido")): Object: 'Object Repository/Focus/apellido' is focused
+
+2023-04-18 12:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Focus/apellido' is focused
+
+2023-04-18 12:42:03 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Practice Form"): Taking screenshot successfully
+
+2023-04-18 12:42:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-18 12:42:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Practice Form.png]]
+
+2023-04-18 12:42:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-18 12:42:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-18 12:42:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-18 12:42:10 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-18 12:42:12 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Focus/Focus' .
+
+2023-04-18 12:42:12 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Focus/Focus' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-18 12:41:40 - [TEST_SUITE][FAILED] - Test_Suite_1: Test Cases/Carga_Archivo/Carga_Archivo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more]]></system-out>
+      <system-err><![CDATA[2023-04-18 12:41:40 - [TEST_SUITE][FAILED] - Test_Suite_1: Test Cases/Carga_Archivo/Carga_Archivo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Carga_Archivo.run(Carga_Archivo:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681832484049.run(TempTestSuite1681832484049.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more]]></system-err>
+   </testsuite>
+</testsuites>

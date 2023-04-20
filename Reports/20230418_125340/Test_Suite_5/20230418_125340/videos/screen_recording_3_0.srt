@@ -1,0 +1,64 @@
+1
+00:00:00,589 --> 00:00:02,084
+1. openBrowser("")
+
+2
+00:00:02,086 --> 00:00:06,924
+5. navigateToUrl("https://demoqa.com/")
+
+3
+00:00:06,925 --> 00:00:07,081
+9. maximizeWindow()
+
+4
+00:00:07,082 --> 00:00:07,098
+13. scrollToPosition(0, 120)
+
+5
+00:00:07,098 --> 00:00:07,857
+17. click(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/div_Elements_card-up"))
+
+6
+00:00:07,857 --> 00:00:09,672
+21. click(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/li_Text Box"))
+
+7
+00:00:09,673 --> 00:00:10,519
+25. setText(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/input_Full Name_userName"), "Juan Cruz")
+
+8
+00:00:10,520 --> 00:00:11,264
+29. setText(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/input_Email_userEmail"), "juancmouhape@gmail.com")
+
+9
+00:00:11,264 --> 00:00:11,958
+33. setText(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/textarea_Current Address_currentAddress"), "Dir uno")
+
+10
+00:00:11,958 --> 00:00:12,659
+37. setText(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "Dir dos")
+
+11
+00:00:12,660 --> 00:00:12,692
+41. scrollToPosition(0, 240)
+
+12
+00:00:12,692 --> 00:00:13,081
+45. click(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/button_Submit"))
+
+13
+00:00:13,083 --> 00:00:13,557
+49. click(findTestObject("Object Repository/Prueba_2/Page_DEMOQA/div_Text Box"))
+
+14
+00:00:13,558 --> 00:00:13,909
+53. verifyElementText(findTestObject("Prueba_2/Page_DEMOQA/div_Text Box"), "Text Box")
+
+15
+00:00:13,910 --> 00:00:14,508
+57. takeScreenshotAsCheckpoint("Text Box")
+
+16
+00:00:14,508 --> 00:00:15,203
+61. closeBrowser()
+

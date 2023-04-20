@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_2,Chrome 111.0.0.0,,,2023-04-12 12:28:52,2023-04-12 12:30:16,"1m - 24,348s",PASSED
+,,,,,,,
+Test Cases/Navegador/Navegador,Chrome 111.0.0.0,,,2023-04-12 12:28:52,2023-04-12 12:29:11,"18,878s",PASSED
+"openBrowser(""https://demoqa.com/text-box"")",Chrome 111.0.0.0,,,2023-04-12 12:28:53,2023-04-12 12:29:08,"14,558s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-12 12:29:08,2023-04-12 12:29:08,"0,185s",PASSED
+pageUrl = getUrl(),Chrome 111.0.0.0,,,2023-04-12 12:29:08,2023-04-12 12:29:08,"0,086s",PASSED
+print(pageUrl),Chrome 111.0.0.0,,,2023-04-12 12:29:08,2023-04-12 12:29:08,"0,018s",PASSED
+Titulo = getWindowTitle(),Chrome 111.0.0.0,,,2023-04-12 12:29:08,2023-04-12 12:29:08,"0,172s",PASSED
+"print(""Titulo de la pagina: "" + Titulo)",Chrome 111.0.0.0,,,2023-04-12 12:29:08,2023-04-12 12:29:08,"0,002s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-12 12:29:08,2023-04-12 12:29:09,"0,829s",PASSED
+Video,Chrome 111.0.0.0,,,2023-04-12 12:29:11,2023-04-12 12:29:11,"0,003s",PASSED
+,,,,,,,
+Test Cases/Objeto_Xpath/Caso_xpath,Chrome 111.0.0.0,,,2023-04-12 12:29:11,2023-04-12 12:29:28,"16,171s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-12 12:29:12,2023-04-12 12:29:14,"2,088s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 111.0.0.0,,,2023-04-12 12:29:14,2023-04-12 12:29:19,"5,189s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-12 12:29:19,2023-04-12 12:29:19,"0,136s",PASSED
+"setText(findTestObject(""Object_xpath/Campo_nombre""), ""Juan Cruz"")",Chrome 111.0.0.0,,,2023-04-12 12:29:19,2023-04-12 12:29:22,"2,581s",PASSED
+delay(3),Chrome 111.0.0.0,,,2023-04-12 12:29:22,2023-04-12 12:29:25,"3,034s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-12 12:29:25,2023-04-12 12:29:25,"0,644s",PASSED
+Video,Chrome 111.0.0.0,,,2023-04-12 12:29:28,2023-04-12 12:29:28,"0,001s",PASSED
+,,,,,,,
+Test Cases/Prueba_1/Caso_1,Chrome 111.0.0.0,,,2023-04-12 12:29:28,2023-04-12 12:29:44,"16,189s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-12 12:29:28,2023-04-12 12:29:30,"1,645s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 111.0.0.0,,,2023-04-12 12:29:30,2023-04-12 12:29:35,"5,257s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-12 12:29:35,2023-04-12 12:29:35,"0,143s",PASSED
+"scrollToPosition(0, 120)",Chrome 111.0.0.0,,,2023-04-12 12:29:35,2023-04-12 12:29:35,"0,039s",PASSED
+"click(findTestObject(""Object Repository/Prueba_1/Page_DEMOQA/div_Elements_card-up""))",Chrome 111.0.0.0,,,2023-04-12 12:29:35,2023-04-12 12:29:36,"0,839s",PASSED
+"click(findTestObject(""Object Repository/Prueba_1/Page_DEMOQA/li_Text Box""))",Chrome 111.0.0.0,,,2023-04-12 12:29:36,2023-04-12 12:29:37,"1,250s",PASSED
+"setText(findTestObject(""Object Repository/Prueba_1/Page_DEMOQA/input_Full Name_userName""), ""Juan Cruz"")",Chrome 111.0.0.0,,,2023-04-12 12:29:37,2023-04-12 12:29:38,"1,378s",PASSED
+"setText(findTestObject(""Object Repository/Prueba_1/Page_DEMOQA/input_Email_userEmail""), ""juancmouhape@gmail.com"")",Chrome 111.0.0.0,,,2023-04-12 12:29:38,2023-04-12 12:29:39,"0,716s",PASSED
+"setText(findTestObject(""Object Repository/Prueba_1/Page_DEMOQA/textarea_Current Address_currentAddress""), ""direccion_uno"")",Chrome 111.0.0.0,,,2023-04-12 12:29:39,2023-04-12 12:29:40,"0,737s",PASSED
+"setText(findTestObject(""Object Repository/Prueba_1/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), ""direccion_dos"")",Chrome 111.0.0.0,,,2023-04-12 12:29:40,2023-04-12 12:29:41,"0,734s",PASSED
+"scrollToPosition(0, 240)",Chrome 111.0.0.0,,,2023-04-12 12:29:41,2023-04-12 12:29:41,"0,018s",PASSED
+"click(findTestObject(""Object Repository/Prueba_1/Page_DEMOQA/button_Submit""))",Chrome 111.0.0.0,,,2023-04-12 12:29:41,2023-04-12 12:29:41,"0,417s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-12 12:29:41,2023-04-12 12:29:42,"0,629s",PASSED
+Video,Chrome 111.0.0.0,,,2023-04-12 12:29:44,2023-04-12 12:29:44,"0,002s",PASSED
+,,,,,,,
+Test Cases/Prueba_1/Caso_2,Chrome 111.0.0.0,,,2023-04-12 12:29:44,2023-04-12 12:30:00,"16,375s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-12 12:29:44,2023-04-12 12:29:45,"1,558s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 111.0.0.0,,,2023-04-12 12:29:45,2023-04-12 12:29:50,"4,939s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-12 12:29:50,2023-04-12 12:29:51,"0,122s",PASSED
+"scrollToPosition(0, 120)",Chrome 111.0.0.0,,,2023-04-12 12:29:51,2023-04-12 12:29:51,"0,019s",PASSED
+"click(findTestObject(""Object Repository/Prueba_2/Page_DEMOQA/div_Elements_card-up""))",Chrome 111.0.0.0,,,2023-04-12 12:29:51,2023-04-12 12:29:51,"0,822s",PASSED
+"click(findTestObject(""Object Repository/Prueba_2/Page_DEMOQA/li_Text Box""))",Chrome 111.0.0.0,,,2023-04-12 12:29:51,2023-04-12 12:29:53,"1,698s",PASSED
+"setText(findTestObject(""Object Repository/Prueba_2/Page_DEMOQA/input_Full Name_userName""), ""Juan Cruz"")",Chrome 111.0.0.0,,,2023-04-12 12:29:53,2023-04-12 12:29:54,"0,829s",PASSED
+"setText(findTestObject(""Object Repository/Prueba_2/Page_DEMOQA/input_Email_userEmail""), ""juancmouhape@gmail.com"")",Chrome 111.0.0.0,,,2023-04-12 12:29:54,2023-04-12 12:29:55,"0,818s",PASSED
+"setText(findTestObject(""Object Repository/Prueba_2/Page_DEMOQA/textarea_Current Address_currentAddress""), ""Dir uno"")",Chrome 111.0.0.0,,,2023-04-12 12:29:55,2023-04-12 12:29:55,"0,708s",PASSED
+"setText(findTestObject(""Object Repository/Prueba_2/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), ""Dir dos"")",Chrome 111.0.0.0,,,2023-04-12 12:29:55,2023-04-12 12:29:56,"0,725s",PASSED
+"scrollToPosition(0, 240)",Chrome 111.0.0.0,,,2023-04-12 12:29:56,2023-04-12 12:29:56,"0,019s",PASSED
+"click(findTestObject(""Object Repository/Prueba_2/Page_DEMOQA/button_Submit""))",Chrome 111.0.0.0,,,2023-04-12 12:29:56,2023-04-12 12:29:57,"0,401s",PASSED
+"click(findTestObject(""Object Repository/Prueba_2/Page_DEMOQA/div_Text Box""))",Chrome 111.0.0.0,,,2023-04-12 12:29:57,2023-04-12 12:29:57,"0,494s",PASSED
+"verifyElementText(findTestObject(""Prueba_2/Page_DEMOQA/div_Text Box""), ""Text Box"")",Chrome 111.0.0.0,,,2023-04-12 12:29:57,2023-04-12 12:29:57,"0,324s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-12 12:29:57,2023-04-12 12:29:58,"0,632s",PASSED
+Video,Chrome 111.0.0.0,,,2023-04-12 12:30:00,2023-04-12 12:30:00,"0,001s",PASSED
+,,,,,,,
+Test Cases/Reto_1/Reto_1,Chrome 111.0.0.0,,,2023-04-12 12:30:00,2023-04-12 12:30:16,"16,093s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-12 12:30:00,2023-04-12 12:30:02,"1,516s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 111.0.0.0,,,2023-04-12 12:30:02,2023-04-12 12:30:07,"5,161s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-12 12:30:07,2023-04-12 12:30:07,"0,141s",PASSED
+"scrollToPosition(0, 120)",Chrome 111.0.0.0,,,2023-04-12 12:30:07,2023-04-12 12:30:07,"0,019s",PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_DEMOQA/div_Elements_card-up""))",Chrome 111.0.0.0,,,2023-04-12 12:30:07,2023-04-12 12:30:08,"0,803s",PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_DEMOQA/li_Check Box""))",Chrome 111.0.0.0,,,2023-04-12 12:30:08,2023-04-12 12:30:09,"1,501s",PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_DEMOQA/svg_Book Store API_rct-icon rct-icon-uncheck""))",Chrome 111.0.0.0,,,2023-04-12 12:30:09,2023-04-12 12:30:10,"0,942s",PASSED
+"scrollToPosition(0, 240)",Chrome 111.0.0.0,,,2023-04-12 12:30:10,2023-04-12 12:30:10,"0,013s",PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_DEMOQA/li_Radio Button""))",Chrome 111.0.0.0,,,2023-04-12 12:30:10,2023-04-12 12:30:11,"0,585s",PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_DEMOQA/label_Yes""))",Chrome 111.0.0.0,,,2023-04-12 12:30:11,2023-04-12 12:30:11,"0,499s",PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_DEMOQA/label_Impressive""))",Chrome 111.0.0.0,,,2023-04-12 12:30:11,2023-04-12 12:30:12,"0,516s",PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_DEMOQA/label_Yes""))",Chrome 111.0.0.0,,,2023-04-12 12:30:12,2023-04-12 12:30:13,"0,569s",PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_DEMOQA/div_Radio Button""))",Chrome 111.0.0.0,,,2023-04-12 12:30:13,2023-04-12 12:30:13,"0,606s",PASSED
+"verifyElementText(findTestObject(""Reto_1/Page_DEMOQA/div_Radio Button""), ""Radio Button"")",Chrome 111.0.0.0,,,2023-04-12 12:30:13,2023-04-12 12:30:13,"0,343s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-12 12:30:13,2023-04-12 12:30:14,"0,640s",PASSED
+Video,Chrome 111.0.0.0,,,2023-04-12 12:30:16,2023-04-12 12:30:16,"0,001s",PASSED

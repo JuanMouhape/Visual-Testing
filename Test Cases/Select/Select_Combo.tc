@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select_Combo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df116c43-c359-45fb-9500-4b3ba213a13b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc7b5d70-0d46-49ad-84a8-8f293d7f9097</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>dc7b5d70-0d46-49ad-84a8-8f293d7f9097</id>
+      <masked>false</masked>
+      <name>tiempo</name>
+   </variable>
+</TestCaseEntity>

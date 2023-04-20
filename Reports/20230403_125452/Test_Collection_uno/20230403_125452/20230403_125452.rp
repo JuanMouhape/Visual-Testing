@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20230403_125452</name>
+   <tag></tag>
+   <displayName>20230403_125452</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230403_125452/Test_Suite_2/20230403_125453</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Test_Collection_uno</testSuiteCollectionId>
+</ReportCollectionEntity>

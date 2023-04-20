@@ -1,0 +1,44 @@
+1
+00:00:00,630 --> 00:00:03,903
+1. openBrowser("")
+
+2
+00:00:03,921 --> 00:00:05,322
+5. navigateToUrl("https://testpages.herokuapp.com/styled/file-upload-test.html")
+
+3
+00:00:05,322 --> 00:00:05,512
+9. maximizeWindow()
+
+4
+00:00:05,513 --> 00:00:06,047
+13. uploadFile(findTestObject("Carga_Archivo/Page_Upload a File/Cargar"), "C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\Imagen de WhatsApp 2022-11-14 a las 14.26.24.jpg")
+
+5
+00:00:06,048 --> 00:00:08,400
+17. delay(tiempo)
+
+6
+00:00:08,401 --> 00:00:08,898
+21. click(findTestObject("Object Repository/Carga_Archivo/Page_Upload a File/input_What type is it_filetype"))
+
+7
+00:00:08,898 --> 00:00:10,618
+25. click(findTestObject("Object Repository/Carga_Archivo/Page_Upload a File/input_A General File_upload"))
+
+8
+00:00:10,620 --> 00:00:12,635
+29. delay(tiempo)
+
+9
+00:00:12,636 --> 00:00:13,064
+33. verifyElementText(findTestObject("Carga_Archivo/Page_Upload a File/ArchivoCargado"), "You uploaded this image:")
+
+10
+00:00:13,064 --> 00:00:15,068
+37. delay(tiempo)
+
+11
+00:00:15,069 --> 00:00:15,798
+41. closeBrowser()
+

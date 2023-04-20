@@ -1,0 +1,12 @@
+1
+00:00:00,274 --> 00:00:02,193
+1. openBrowser("")
+
+2
+00:00:02,194 --> 00:00:03,145
+5. navigateToUrl("https://demoqa.com/text-box")
+
+3
+00:00:03,146 --> 00:00:03,188
+9. maximizeWindow()
+

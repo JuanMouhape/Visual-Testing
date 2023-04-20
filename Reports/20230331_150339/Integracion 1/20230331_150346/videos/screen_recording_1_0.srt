@@ -1,0 +1,168 @@
+1
+00:00:00,462 --> 00:00:08,958
+1. openBrowser("")
+
+2
+00:00:08,968 --> 00:01:21,861
+5. navigateToUrl("https://demoqa.com/text-box")
+
+3
+00:01:21,862 --> 00:01:22,014
+9. maximizeWindow()
+
+4
+00:01:22,015 --> 00:01:22,198
+13. waitForPageLoad(30)
+
+5
+00:01:22,198 --> 00:01:22,201
+17. for ([i = 1, i <= 3, (i++)])
+
+6
+00:01:22,202 --> 00:01:22,221
+1. num = Math.random() * 1000
+
+7
+00:01:22,222 --> 00:01:22,223
+5. z = ["Juan", "Pablo", "Rodrigo", "Cruz"]
+
+8
+00:01:22,224 --> 00:01:22,230
+9. nom = new java.util.Random()
+
+9
+00:01:22,231 --> 00:01:22,238
+13. tx_nombre = z[nom.nextInt(size)]
+
+10
+00:01:22,239 --> 00:01:23,541
+17. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), tx_nombre)
+
+11
+00:01:23,541 --> 00:01:24,252
+21. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail"), tx_nombre + "@gmail.com")
+
+12
+00:01:24,252 --> 00:01:24,978
+25. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress"), "Pasaje San Luis" + num)
+
+13
+00:01:24,978 --> 00:01:25,718
+29. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "Bario Terminal Casa" + num)
+
+14
+00:01:25,718 --> 00:01:26,094
+33. scrollToElement(findTestObject("Bucles/Page_DEMOQA/button_Submit"), 3)
+
+15
+00:01:26,095 --> 00:01:26,510
+37. click(findTestObject("Object Repository/Bucles/Page_DEMOQA/button_Submit"))
+
+16
+00:01:26,511 --> 00:01:26,957
+41. scrollToElement(findTestObject("Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), 3)
+
+17
+00:01:26,957 --> 00:01:29,988
+45. delay(3)
+
+18
+00:01:29,988 --> 00:01:29,990
+1. num = Math.random() * 1000
+
+19
+00:01:29,990 --> 00:01:29,992
+5. z = ["Juan", "Pablo", "Rodrigo", "Cruz"]
+
+20
+00:01:29,992 --> 00:01:29,993
+9. nom = new java.util.Random()
+
+21
+00:01:29,994 --> 00:01:29,995
+13. tx_nombre = z[nom.nextInt(size)]
+
+22
+00:01:29,995 --> 00:01:30,696
+17. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), tx_nombre)
+
+23
+00:01:30,697 --> 00:01:31,379
+21. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail"), tx_nombre + "@gmail.com")
+
+24
+00:01:31,379 --> 00:01:32,196
+25. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress"), "Pasaje San Luis" + num)
+
+25
+00:01:32,196 --> 00:01:32,875
+29. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "Bario Terminal Casa" + num)
+
+26
+00:01:32,876 --> 00:01:33,188
+33. scrollToElement(findTestObject("Bucles/Page_DEMOQA/button_Submit"), 3)
+
+27
+00:01:33,189 --> 00:01:33,560
+37. click(findTestObject("Object Repository/Bucles/Page_DEMOQA/button_Submit"))
+
+28
+00:01:33,560 --> 00:01:33,988
+41. scrollToElement(findTestObject("Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), 3)
+
+29
+00:01:33,989 --> 00:01:36,997
+45. delay(3)
+
+30
+00:01:36,999 --> 00:01:37,000
+1. num = Math.random() * 1000
+
+31
+00:01:37,000 --> 00:01:37,001
+5. z = ["Juan", "Pablo", "Rodrigo", "Cruz"]
+
+32
+00:01:37,002 --> 00:01:37,003
+9. nom = new java.util.Random()
+
+33
+00:01:37,004 --> 00:01:37,005
+13. tx_nombre = z[nom.nextInt(size)]
+
+34
+00:01:37,005 --> 00:01:37,680
+17. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), tx_nombre)
+
+35
+00:01:37,680 --> 00:01:38,357
+21. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail"), tx_nombre + "@gmail.com")
+
+36
+00:01:38,357 --> 00:01:39,071
+25. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress"), "Pasaje San Luis" + num)
+
+37
+00:01:39,072 --> 00:01:39,796
+29. setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "Bario Terminal Casa" + num)
+
+38
+00:01:39,796 --> 00:01:40,131
+33. scrollToElement(findTestObject("Bucles/Page_DEMOQA/button_Submit"), 3)
+
+39
+00:01:40,131 --> 00:01:40,488
+37. click(findTestObject("Object Repository/Bucles/Page_DEMOQA/button_Submit"))
+
+40
+00:01:40,489 --> 00:01:41,020
+41. scrollToElement(findTestObject("Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), 3)
+
+41
+00:01:41,020 --> 00:01:44,031
+45. delay(3)
+
+42
+00:01:44,032 --> 00:01:44,698
+21. closeBrowser()
+

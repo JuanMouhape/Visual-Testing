@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Wait/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva",
+      "brokenLocator": "//a[@id\u003d\u0027u_0_0_UA\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Crear cuenta nueva\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230323_164154/Test_Suite_3/20230323_164203/Object Repository/Wait/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Wait/Page_Facebook - Entrar o registrarse/input_No hemos podido crear tu cuentaNo hem_857a2b",
+      "brokenLocator": "//input[@id\u003d\u0027u_3_g_tB\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230323_164154/Test_Suite_3/20230323_164203/Object Repository/Wait/Page_Facebook - Entrar o registrarse/input_No hemos podido crear tu cuentaNo hem_857a2b_position.png"
+    }
+  ]
+}

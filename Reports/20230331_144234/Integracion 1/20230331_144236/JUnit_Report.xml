@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Integracion 1" time="126.19" tests="2" failures="0" errors="0">
+   <testsuite name="Integracion 1" tests="2" failures="0" errors="0" time="126.19" skipped="0" timestamp="2023-03-31 14:42:47" hostname="admin - 192.168.0.7" id="Test Suites/Integracion 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Proyectos\\Proyecto_Uno\\Reports\\20230331_144234\\Integracion 1\\20230331_144236"/>
+         <property name="logFiles" value="C:\\Katalon\\Proyectos\\Proyecto_Uno\\Reports\\20230331_144234\\Integracion 1\\20230331_144236\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 192.168.0.7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.7"/>
+         <property name="sessionId" value="ee62b2b4a299b967936310221a010a85"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Bucles/Reto_Bucle_1 - Solucion 2" time="104.787" classname="Test Cases/Bucles/Reto_Bucle_1 - Solucion 2" status="PASSED">
+         <system-out><![CDATA[2023-03-31 14:42:47 - [TEST_CASE][PASSED] - Test Cases/Bucles/Reto_Bucle_1 - Solucion 2: Test Cases/Bucles/Reto_Bucle_1 - Solucion 2
+
+2023-03-31 14:42:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-31 14:42:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-31 14:42:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-31 14:42:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-31 14:42:54 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2023-03-31 14:44:07 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2023-03-31 14:44:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-31 14:44:07 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-31 14:44:07 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-03-31 14:44:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-31 14:44:07 - [TEST_STEP][PASSED] - for ([i = 1, i <= 3, (i++)]): Delayed 3 second(s)
+
+2023-03-31 14:44:07 - [TEST_STEP][PASSED] - num = Math.random() * 1000: null
+
+2023-03-31 14:44:07 - [TEST_STEP][PASSED] - z = ["Juan", "Pablo", "Rodrigo", "Cruz"]: null
+
+2023-03-31 14:44:07 - [TEST_STEP][PASSED] - nom = new java.util.Random(): null
+
+2023-03-31 14:44:07 - [TEST_STEP][PASSED] - tx_nombre = z[nom.nextInt(size)]: null
+
+2023-03-31 14:44:07 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), tx_nombre): Text 'Juan' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName'
+
+2023-03-31 14:44:08 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName'
+
+2023-03-31 14:44:08 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Juan@gmail.com' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail'
+
+2023-03-31 14:44:09 - [MESSAGE][PASSED] - Text 'Juan@gmail.com' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail'
+
+2023-03-31 14:44:09 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress"), "Pasaje San Luis" + num): Text 'Pasaje San Luis832' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-03-31 14:44:10 - [MESSAGE][PASSED] - Text 'Pasaje San Luis832' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-03-31 14:44:10 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "Bario Terminal Casa" + num): Text 'Bario Terminal Casa832' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-03-31 14:44:10 - [MESSAGE][PASSED] - Text 'Bario Terminal Casa832' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-03-31 14:44:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Bucles/Page_DEMOQA/button_Submit"), 3): Scroll to object 'Object Repository/Bucles/Page_DEMOQA/button_Submit' successfully
+
+2023-03-31 14:44:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Bucles/Page_DEMOQA/button_Submit' successfully
+
+2023-03-31 14:44:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Bucles/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Bucles/Page_DEMOQA/button_Submit' is clicked on
+
+2023-03-31 14:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Bucles/Page_DEMOQA/button_Submit' is clicked on
+
+2023-03-31 14:44:11 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), 3): Scroll to object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName' successfully
+
+2023-03-31 14:44:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName' successfully
+
+2023-03-31 14:44:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-31 14:44:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-31 14:44:15 - [TEST_STEP][PASSED] - num = Math.random() * 1000: null
+
+2023-03-31 14:44:15 - [TEST_STEP][PASSED] - z = ["Juan", "Pablo", "Rodrigo", "Cruz"]: null
+
+2023-03-31 14:44:15 - [TEST_STEP][PASSED] - nom = new java.util.Random(): null
+
+2023-03-31 14:44:15 - [TEST_STEP][PASSED] - tx_nombre = z[nom.nextInt(size)]: null
+
+2023-03-31 14:44:15 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), tx_nombre): Text 'Rodrigo' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName'
+
+2023-03-31 14:44:15 - [MESSAGE][PASSED] - Text 'Rodrigo' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName'
+
+2023-03-31 14:44:15 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Rodrigo@gmail.com' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail'
+
+2023-03-31 14:44:16 - [MESSAGE][PASSED] - Text 'Rodrigo@gmail.com' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail'
+
+2023-03-31 14:44:16 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress"), "Pasaje San Luis" + num): Text 'Pasaje San Luis492' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-03-31 14:44:17 - [MESSAGE][PASSED] - Text 'Pasaje San Luis492' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-03-31 14:44:17 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "Bario Terminal Casa" + num): Text 'Bario Terminal Casa492' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-03-31 14:44:18 - [MESSAGE][PASSED] - Text 'Bario Terminal Casa492' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-03-31 14:44:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Bucles/Page_DEMOQA/button_Submit"), 3): Scroll to object 'Object Repository/Bucles/Page_DEMOQA/button_Submit' successfully
+
+2023-03-31 14:44:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Bucles/Page_DEMOQA/button_Submit' successfully
+
+2023-03-31 14:44:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Bucles/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Bucles/Page_DEMOQA/button_Submit' is clicked on
+
+2023-03-31 14:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Bucles/Page_DEMOQA/button_Submit' is clicked on
+
+2023-03-31 14:44:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), 3): Scroll to object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName' successfully
+
+2023-03-31 14:44:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName' successfully
+
+2023-03-31 14:44:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-31 14:44:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-31 14:44:22 - [TEST_STEP][PASSED] - num = Math.random() * 1000: null
+
+2023-03-31 14:44:22 - [TEST_STEP][PASSED] - z = ["Juan", "Pablo", "Rodrigo", "Cruz"]: null
+
+2023-03-31 14:44:22 - [TEST_STEP][PASSED] - nom = new java.util.Random(): null
+
+2023-03-31 14:44:22 - [TEST_STEP][PASSED] - tx_nombre = z[nom.nextInt(size)]: null
+
+2023-03-31 14:44:22 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), tx_nombre): Text 'Cruz' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName'
+
+2023-03-31 14:44:23 - [MESSAGE][PASSED] - Text 'Cruz' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName'
+
+2023-03-31 14:44:23 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Cruz@gmail.com' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail'
+
+2023-03-31 14:44:23 - [MESSAGE][PASSED] - Text 'Cruz@gmail.com' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Email_userEmail'
+
+2023-03-31 14:44:23 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress"), "Pasaje San Luis" + num): Text 'Pasaje San Luis502' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-03-31 14:44:24 - [MESSAGE][PASSED] - Text 'Pasaje San Luis502' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-03-31 14:44:24 - [TEST_STEP][PASSED] - setText(findTestObject("Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "Bario Terminal Casa" + num): Text 'Bario Terminal Casa502' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-03-31 14:44:25 - [MESSAGE][PASSED] - Text 'Bario Terminal Casa502' is set on object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-03-31 14:44:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Bucles/Page_DEMOQA/button_Submit"), 3): Scroll to object 'Object Repository/Bucles/Page_DEMOQA/button_Submit' successfully
+
+2023-03-31 14:44:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Bucles/Page_DEMOQA/button_Submit' successfully
+
+2023-03-31 14:44:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Bucles/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Bucles/Page_DEMOQA/button_Submit' is clicked on
+
+2023-03-31 14:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Bucles/Page_DEMOQA/button_Submit' is clicked on
+
+2023-03-31 14:44:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName"), 3): Scroll to object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName' successfully
+
+2023-03-31 14:44:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Bucles/Page_DEMOQA/Page_DEMOQA/input_Full Name_userName' successfully
+
+2023-03-31 14:44:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-31 14:44:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-31 14:44:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-31 14:44:30 - [MESSAGE][PASSED] - Browser is closed
+
+2023-03-31 14:44:32 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Bucles/Reto_Bucle_1 - Solucion 2' .
+
+2023-03-31 14:44:32 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Bucles/Reto_Bucle_1 - Solucion 2' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bucles/Test_While" time="21.073" classname="Test Cases/Bucles/Test_While" status="PASSED">
+         <system-out><![CDATA[2023-03-31 14:44:32 - [TEST_CASE][PASSED] - Test Cases/Bucles/Test_While: Test Cases/Bucles/Test_While
+
+2023-03-31 14:44:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-31 14:44:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-31 14:44:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-31 14:44:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-31 14:44:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2023-03-31 14:44:34 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2023-03-31 14:44:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-31 14:44:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-31 14:44:34 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-03-31 14:44:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-31 14:44:34 - [TEST_STEP][PASSED] - res = 0: null
+
+2023-03-31 14:44:34 - [TEST_STEP][PASSED] - while (res != 8): Text of object 'Object Repository/While/resultado' is: '8'
+
+2023-03-31 14:44:34 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2023-03-31 14:44:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num): Text '5 +2' is set on object 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:35 - [MESSAGE][PASSED] - Text '5 +2' is set on object 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:41 - [TEST_STEP][PASSED] - res = getText(findTestObject("While/resultado")).toInteger(): Text of object 'Object Repository/While/resultado' is: '7'
+
+2023-03-31 14:44:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/While/resultado' is: '7'
+
+2023-03-31 14:44:41 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2023-03-31 14:44:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num): Text '5 +2' is set on object 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:42 - [MESSAGE][PASSED] - Text '5 +2' is set on object 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:45 - [TEST_STEP][PASSED] - res = getText(findTestObject("While/resultado")).toInteger(): Text of object 'Object Repository/While/resultado' is: '7'
+
+2023-03-31 14:44:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/While/resultado' is: '7'
+
+2023-03-31 14:44:46 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2023-03-31 14:44:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num): Text '5 +3' is set on object 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:46 - [MESSAGE][PASSED] - Text '5 +3' is set on object 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While/Page_Google/input__q'
+
+2023-03-31 14:44:50 - [TEST_STEP][PASSED] - res = getText(findTestObject("While/resultado")).toInteger(): Text of object 'Object Repository/While/resultado' is: '8'
+
+2023-03-31 14:44:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/While/resultado' is: '8'
+
+2023-03-31 14:44:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-31 14:44:51 - [MESSAGE][PASSED] - Browser is closed
+
+2023-03-31 14:44:53 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Bucles/Test_While' .
+
+2023-03-31 14:44:53 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Bucles/Test_While' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-31 14:42:47 - [TEST_SUITE][PASSED] - Integracion 1: Test Cases/Bucles/Test_While]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

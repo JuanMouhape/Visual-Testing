@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_edad</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b669825d-abbb-4104-b29a-f4f8388bfd3f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d54831e1-7d2a-43b0-beeb-4623c21b50a8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>d54831e1-7d2a-43b0-beeb-4623c21b50a8</id>
+      <masked>false</masked>
+      <name>edad</name>
+   </variable>
+</TestCaseEntity>

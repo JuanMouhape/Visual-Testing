@@ -1,0 +1,60 @@
+1
+00:00:00,284 --> 00:00:02,091
+1. openBrowser("")
+
+2
+00:00:02,092 --> 00:00:04,295
+5. navigateToUrl("http://opencart.abstracta.us/")
+
+3
+00:00:04,296 --> 00:00:04,432
+9. maximizeWindow()
+
+4
+00:00:04,433 --> 00:00:04,465
+13. scrollToPosition(0, 240)
+
+5
+00:00:04,465 --> 00:00:06,852
+17. click(findTestObject("Spy_web/Reto_2/Page_Your Store/a_MacBook"))
+
+6
+00:00:06,853 --> 00:00:08,037
+21. click(findTestObject("Spy_web/Reto_2/Page_MacBook/img"))
+
+7
+00:00:08,037 --> 00:00:08,560
+25. click(findTestObject("Spy_web/Reto_2/Page_MacBook/button_"))
+
+8
+00:00:08,561 --> 00:00:09,795
+29. setText(findTestObject("Spy_web/Reto_2/Page_MacBook/input_Qty_quantity"), "2")
+
+9
+00:00:09,796 --> 00:00:10,178
+33. click(findTestObject("Spy_web/Reto_2/Page_MacBook/button_Add to Cart"))
+
+10
+00:00:10,178 --> 00:00:11,224
+37. click(findTestObject("Spy_web/Reto_2/Page_MacBook/button_2 item(s) - 1,204.00"))
+
+11
+00:00:11,224 --> 00:00:12,185
+41. click(findTestObject("Spy_web/Reto_2/Page_MacBook/strong_View Cart"))
+
+12
+00:00:12,185 --> 00:00:12,592
+45. click(findTestObject("Spy_web/Reto_2/Page_Shopping Cart/h1_Use Gift Certificate                (0.00kg)"))
+
+13
+00:00:12,593 --> 00:00:12,927
+49. verifyElementText(findTestObject("Spy_web/Reto_2/Page_Shopping Cart/h1_Use Gift Certificate                (0.00kg)"), "Use Gift Certificate  (0.00kg)")
+
+14
+00:00:12,927 --> 00:00:12,952
+53. scrollToPosition(0, 240)
+
+15
+00:00:12,953 --> 00:00:46,039
+57. click(findTestObject("Spy_web/Reto_2/Page_Shopping Cart/a_Checkout"))
+

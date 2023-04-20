@@ -1,0 +1,24 @@
+1
+00:00:00,255 --> 00:00:02,063
+1. openBrowser("")
+
+2
+00:00:02,065 --> 00:00:07,346
+5. navigateToUrl("https://demoqa.com/")
+
+3
+00:00:07,347 --> 00:00:07,598
+9. maximizeWindow()
+
+4
+00:00:07,598 --> 00:00:07,653
+13. scrollToPosition(0, 120)
+
+5
+00:00:07,654 --> 00:00:08,290
+17. click(findTestObject("Object Repository/Prueba_1/Page_DEMOQA/div_Elements_card-up"))
+
+6
+00:00:08,291 --> 00:00:09,233
+21. click(findTestObject("Object Repository/Prueba_1/Page_DEMOQA/li_Text Box"))
+

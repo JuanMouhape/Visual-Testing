@@ -1,0 +1,32 @@
+1
+00:00:00,306 --> 00:00:03,090
+1. openBrowser("")
+
+2
+00:00:03,101 --> 00:00:04,521
+5. navigateToUrl("https://www.facebook.com/")
+
+3
+00:00:04,523 --> 00:00:04,683
+9. maximizeWindow()
+
+4
+00:00:04,684 --> 00:00:04,831
+13. waitForPageLoad(30)
+
+5
+00:00:04,832 --> 00:00:06,527
+17. waitForElementClickable(findTestObject("Wait/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva"), 10)
+
+6
+00:00:06,528 --> 00:00:08,053
+21. click(findTestObject("Object Repository/Wait/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva"))
+
+7
+00:00:08,054 --> 00:00:11,187
+25. setText(findTestObject("Object Repository/Wait/Page_Facebook - Entrar o registrarse/input_No hemos podido crear tu cuentaNo hem_857a2b"), "Mouhape")
+
+8
+00:00:11,189 --> 00:00:11,888
+29. closeBrowser()
+

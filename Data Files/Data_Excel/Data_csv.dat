@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data_csv</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>c74bd08a-ad96-472e-a5dc-3eb0ab8255a8</dataFileGUID>
+   <dataSourceUrl>C:\Katalon\Proyectos\Proyecto_Uno\Externos\Desde_Csv.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

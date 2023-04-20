@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Text Box</name>
+   <tag></tag>
+   <elementGuidId>8027b3e8-136a-4b98-a132-18e33bf6b5e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#item-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='item-0']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>db42ff19-f1cb-499f-960b-7e7baf061af4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-light </value>
+      <webElementGuid>49bd7542-2108-495a-9c58-a08f5d25a04d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>item-0</value>
+      <webElementGuid>f9d88ad4-2cb8-4621-b7b1-3def8096beb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Text Box</value>
+      <webElementGuid>4430b19c-d0d8-41e9-bb28-8bf4c0cd17ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4  col-md-3&quot;]/div[@class=&quot;left-pannel&quot;]/div[@class=&quot;accordion&quot;]/div[@class=&quot;element-group&quot;]/div[@class=&quot;element-list collapse show&quot;]/ul[@class=&quot;menu-list&quot;]/li[@id=&quot;item-0&quot;]</value>
+      <webElementGuid>8f1c14fa-1461-4c80-a958-ff1a445414f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//li[@id='item-0']</value>
+      <webElementGuid>495a8725-4951-4190-a8c6-75c24c36193a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[2]/div/div/div/div/div/ul/li</value>
+      <webElementGuid>de4f2313-38b9-461d-9ae4-2f7aac7ccf51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elements'])[2]/following::li[1]</value>
+      <webElementGuid>3f74f004-99aa-47e8-9f0e-9af655af199f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elements'])[1]/following::li[1]</value>
+      <webElementGuid>db7155a8-1c3a-4cb3-a1bc-62acb2440235</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check Box'])[1]/preceding::li[1]</value>
+      <webElementGuid>32ff7d28-7c51-4c2a-b834-ba5ba02cce8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>fc6bf311-90aa-4a36-9305-457b82f19867</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@id = 'item-0' and (text() = 'Text Box' or . = 'Text Box')]</value>
+      <webElementGuid>c0e9df7d-d103-4b6b-9288-b61a1ca85fbb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_1,Chrome 111.0.0.0,,,2023-03-23 16:56:12,2023-03-23 16:56:50,"37,653s",PASSED
+,,,,,,,
+Test Cases/Carga_Archivo/Carga_Archivo,Chrome 111.0.0.0,,,2023-03-23 16:56:12,2023-03-23 16:56:30,"18,118s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-23 16:56:13,2023-03-23 16:56:16,"3,289s",PASSED
+"navigateToUrl(""https://testpages.herokuapp.com/styled/file-upload-test.html"")",Chrome 111.0.0.0,,,2023-03-23 16:56:16,2023-03-23 16:56:18,"1,401s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-23 16:56:18,2023-03-23 16:56:18,"0,190s",PASSED
+"uploadFile(findTestObject(""Carga_Archivo/Page_Upload a File/Cargar""), ""C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\Imagen de WhatsApp 2022-11-14 a las 14.26.24.jpg"")",Chrome 111.0.0.0,,,2023-03-23 16:56:18,2023-03-23 16:56:19,"0,534s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-03-23 16:56:19,2023-03-23 16:56:21,"2,353s",PASSED
+"click(findTestObject(""Object Repository/Carga_Archivo/Page_Upload a File/input_What type is it_filetype""))",Chrome 111.0.0.0,,,2023-03-23 16:56:21,2023-03-23 16:56:21,"0,497s",PASSED
+"click(findTestObject(""Object Repository/Carga_Archivo/Page_Upload a File/input_A General File_upload""))",Chrome 111.0.0.0,,,2023-03-23 16:56:21,2023-03-23 16:56:23,"1,721s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-03-23 16:56:23,2023-03-23 16:56:25,"2,015s",PASSED
+"verifyElementText(findTestObject(""Carga_Archivo/Page_Upload a File/ArchivoCargado""), ""You uploaded this image:"")",Chrome 111.0.0.0,,,2023-03-23 16:56:25,2023-03-23 16:56:26,"0,428s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-03-23 16:56:26,2023-03-23 16:56:28,"2,005s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-23 16:56:28,2023-03-23 16:56:28,"0,726s",PASSED
+Video,Chrome 111.0.0.0,,,2023-03-23 16:56:30,2023-03-23 16:56:30,"0,001s",PASSED
+,,,,,,,
+Test Cases/Focus/Focus,Chrome 111.0.0.0,,,2023-03-23 16:56:30,2023-03-23 16:56:50,"19,136s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-23 16:56:31,2023-03-23 16:56:32,"1,299s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 111.0.0.0,,,2023-03-23 16:56:32,2023-03-23 16:56:37,"5,098s",PASSED
+waitForPageLoad(30),Chrome 111.0.0.0,,,2023-03-23 16:56:37,2023-03-23 16:56:38,"0,354s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-23 16:56:38,2023-03-23 16:56:38,"0,171s",PASSED
+"focus(findTestObject(""Focus/nombre""))",Chrome 111.0.0.0,,,2023-03-23 16:56:38,2023-03-23 16:56:38,"0,522s",PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-23 16:56:38,2023-03-23 16:56:41,"3,008s",PASSED
+"focus(findTestObject(""Focus/apellido""))",Chrome 111.0.0.0,,,2023-03-23 16:56:41,2023-03-23 16:56:42,"0,459s",PASSED
+delay(5),Chrome 111.0.0.0,,,2023-03-23 16:56:42,2023-03-23 16:56:47,"5,011s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-23 16:56:47,2023-03-23 16:56:47,"0,726s",PASSED
+Video,Chrome 111.0.0.0,,,2023-03-23 16:56:50,2023-03-23 16:56:50,"0,002s",PASSED

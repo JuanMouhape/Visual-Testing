@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data_interno</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c548b460-b017-4519-86e8-2357b37d3093</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>nombre1 apellido1 email1</data>
+   <data>nombre2+ apellido2 email2</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>nombre</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>apellido</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>email</name>
+      <size>2</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

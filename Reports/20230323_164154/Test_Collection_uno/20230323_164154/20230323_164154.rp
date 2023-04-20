@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20230323_164154</name>
+   <tag></tag>
+   <displayName>20230323_164154</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230323_164154/Test_Suite_1/20230323_164155</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230323_164154/Test_Suite_2/20230323_164157</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230323_164154/Test_Suite_4/20230323_164159</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Edge Chromium</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230323_164154/Test_Suite_5/20230323_164201</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230323_164154/Test_Suite_3/20230323_164203</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Edge Chromium</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230323_164154/Test_Suite_6/20230323_164205</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230323_164154/Test_Suite_7/20230323_164207</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Edge Chromium</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Test_Collection_uno</testSuiteCollectionId>
+</ReportCollectionEntity>

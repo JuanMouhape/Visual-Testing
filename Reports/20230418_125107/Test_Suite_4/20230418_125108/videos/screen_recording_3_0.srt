@@ -1,0 +1,40 @@
+1
+00:00:00,317 --> 00:00:01,612
+1. openBrowser("")
+
+2
+00:00:01,613 --> 00:00:06,648
+5. navigateToUrl("https://demoqa.com/automation-practice-form")
+
+3
+00:00:06,648 --> 00:00:06,790
+9. maximizeWindow()
+
+4
+00:00:06,791 --> 00:00:08,097
+13. takeScreenshotAsCheckpoint("Practice Form")
+
+5
+00:00:08,097 --> 00:00:08,843
+17. setText(findTestObject("Reto_xpath/Nombre"), "Juan Cruz")
+
+6
+00:00:08,843 --> 00:00:09,589
+21. setText(findTestObject("Reto_xpath/Apellido"), "Mouhape")
+
+7
+00:00:09,591 --> 00:00:10,347
+25. setText(findTestObject("Reto_xpath/Email"), "juancmouhape@gmail.com")
+
+8
+00:00:10,347 --> 00:00:12,358
+29. delay(2)
+
+9
+00:00:12,358 --> 00:00:12,733
+33. scrollToElement(findTestObject("Reto_xpath/Boton_Submit"), 2)
+
+10
+00:00:12,734 --> 00:00:15,746
+37. delay(3)
+

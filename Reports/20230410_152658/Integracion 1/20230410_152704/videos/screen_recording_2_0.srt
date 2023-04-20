@@ -1,0 +1,92 @@
+1
+00:00:00,263 --> 00:00:01,439
+1. openBrowser("")
+
+2
+00:00:01,440 --> 00:00:02,296
+5. navigateToUrl("https://www.google.com/")
+
+3
+00:00:02,297 --> 00:00:02,412
+9. maximizeWindow()
+
+4
+00:00:02,412 --> 00:00:02,431
+13. waitForPageLoad(30)
+
+5
+00:00:02,432 --> 00:00:02,432
+17. res = 0
+
+6
+00:00:02,432 --> 00:00:02,433
+21. while (res != 8)
+
+7
+00:00:02,433 --> 00:00:02,436
+1. num = Math.random() * 5 - 1 + 1
+
+8
+00:00:02,436 --> 00:00:03,132
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+9
+00:00:03,132 --> 00:00:07,496
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+10
+00:00:07,497 --> 00:00:07,961
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+11
+00:00:07,961 --> 00:00:07,962
+1. num = Math.random() * 5 - 1 + 1
+
+12
+00:00:07,963 --> 00:00:08,687
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+13
+00:00:08,687 --> 00:00:13,383
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+14
+00:00:13,384 --> 00:00:13,871
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+15
+00:00:13,871 --> 00:00:13,872
+1. num = Math.random() * 5 - 1 + 1
+
+16
+00:00:13,873 --> 00:00:14,662
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+17
+00:00:14,663 --> 00:00:15,810
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+18
+00:00:15,810 --> 00:00:17,104
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+19
+00:00:17,105 --> 00:00:17,105
+1. num = Math.random() * 5 - 1 + 1
+
+20
+00:00:17,106 --> 00:00:18,137
+5. setText(findTestObject("Object Repository/While/Page_Google/input__q"), "5 +" + num)
+
+21
+00:00:18,138 --> 00:00:19,670
+9. sendKeys(findTestObject("Object Repository/While/Page_Google/input__q"), Keys.chord(ENTER))
+
+22
+00:00:19,671 --> 00:00:21,263
+13. res = getText(findTestObject("While/resultado")).toInteger()
+
+23
+00:00:21,263 --> 00:00:22,081
+25. closeBrowser()
+

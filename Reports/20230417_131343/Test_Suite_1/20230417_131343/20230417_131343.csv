@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_1,Chrome 112.0.0.0,,,2023-04-17 13:13:53,2023-04-17 13:14:22,"29,173s",FAILED
+,,,,,,,
+Test Cases/Carga_Archivo/Carga_Archivo,Chrome 112.0.0.0,,,2023-04-17 13:13:53,2023-04-17 13:14:02,"8,854s",FAILED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-17 13:13:54,2023-04-17 13:13:58,"3,689s",PASSED
+"navigateToUrl(""https://testpages.herokuapp.com/styled/file-upload-test.html"")",Chrome 112.0.0.0,,,2023-04-17 13:13:58,2023-04-17 13:13:59,"1,386s",PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-17 13:13:59,2023-04-17 13:13:59,"0,209s",PASSED
+"uploadFile(findTestObject(""Carga_Archivo/Page_Upload a File/Cargar""), ""C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\Imagen de WhatsApp 2022-11-14 a las 14.26.24.jpg"")",Chrome 112.0.0.0,,,2023-04-17 13:13:59,2023-04-17 13:14:00,"0,620s",PASSED
+delay(tiempo),Chrome 112.0.0.0,,,2023-04-17 13:14:00,2023-04-17 13:14:00,"0,231s",FAILED
+Video,Chrome 112.0.0.0,,,2023-04-17 13:14:02,2023-04-17 13:14:02,"0,002s",PASSED
+,,,,,,,
+Test Cases/Focus/Focus,Chrome 112.0.0.0,,,2023-04-17 13:14:02,2023-04-17 13:14:22,"19,966s",PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-17 13:14:03,2023-04-17 13:14:05,"1,937s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 112.0.0.0,,,2023-04-17 13:14:05,2023-04-17 13:14:10,"4,945s",PASSED
+waitForPageLoad(30),Chrome 112.0.0.0,,,2023-04-17 13:14:10,2023-04-17 13:14:10,"0,185s",PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-17 13:14:10,2023-04-17 13:14:10,"0,182s",PASSED
+"focus(findTestObject(""Focus/nombre""))",Chrome 112.0.0.0,,,2023-04-17 13:14:10,2023-04-17 13:14:11,"0,560s",PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-17 13:14:11,2023-04-17 13:14:14,"3,045s",PASSED
+"focus(findTestObject(""Focus/apellido""))",Chrome 112.0.0.0,,,2023-04-17 13:14:14,2023-04-17 13:14:14,"0,439s",PASSED
+delay(5),Chrome 112.0.0.0,,,2023-04-17 13:14:14,2023-04-17 13:14:20,"5,038s",PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-17 13:14:20,2023-04-17 13:14:20,"0,702s",PASSED
+Video,Chrome 112.0.0.0,,,2023-04-17 13:14:22,2023-04-17 13:14:22,"0,001s",PASSED

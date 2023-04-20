@@ -1,0 +1,64 @@
+1
+00:00:00,127 --> 00:00:01,363
+1. openBrowser("")
+
+2
+00:00:01,364 --> 00:00:06,445
+5. navigateToUrl("https://demoqa.com/automation-practice-form")
+
+3
+00:00:06,446 --> 00:00:06,586
+9. maximizeWindow()
+
+4
+00:00:06,587 --> 00:00:08,055
+13. setText(findTestObject("Object Repository/Set_text/Page_DEMOQA/input_Name_firstName"), "Juan Cruz")
+
+5
+00:00:08,057 --> 00:00:10,104
+17. delay(tiempo)
+
+6
+00:00:10,105 --> 00:00:10,470
+21. clearText(findTestObject("Set_text/Page_DEMOQA/input_Name_firstName"))
+
+7
+00:00:10,484 --> 00:00:10,903
+25. sendKeys(findTestObject("Set_text/Page_DEMOQA/input_Name_firstName"), "Pedro")
+
+8
+00:00:10,928 --> 00:00:12,943
+29. delay(tiempo)
+
+9
+00:00:12,944 --> 00:00:13,408
+33. check(findTestObject("Set_text/Page_DEMOQA/label_Male"))
+
+10
+00:00:13,408 --> 00:00:15,414
+37. delay(tiempo)
+
+11
+00:00:15,415 --> 00:00:15,764
+41. scrollToElement(findTestObject("Set_text/Page_DEMOQA/label_Sports"), tiempo)
+
+12
+00:00:15,765 --> 00:00:16,165
+45. check(findTestObject("Set_text/Page_DEMOQA/label_Sports"))
+
+13
+00:00:16,166 --> 00:00:18,177
+49. delay(tiempo)
+
+14
+00:00:18,178 --> 00:00:21,169
+53. click(findTestObject("Set_text/Page_DEMOQA/Link"))
+
+15
+00:00:21,171 --> 00:00:23,186
+57. delay(tiempo)
+
+16
+00:00:23,187 --> 00:00:23,965
+61. closeBrowser()
+

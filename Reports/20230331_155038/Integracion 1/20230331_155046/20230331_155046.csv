@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion 1,Chrome 111.0.0.0,,,2023-03-31 15:50:56,2023-03-31 15:53:34,"2m - 38,946s",PASSED
+,,,,,,,
+Test Cases/Bucles/Reto_Bucle_1 - Solucion 2,Chrome 111.0.0.0,,,2023-03-31 15:50:56,2023-03-31 15:52:52,"1m - 56,195s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-31 15:50:57,2023-03-31 15:51:06,"9,401s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 111.0.0.0,,,2023-03-31 15:51:06,2023-03-31 15:52:19,"1m - 12,584s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-31 15:52:19,2023-03-31 15:52:19,"0,195s",PASSED
+waitForPageLoad(30),Chrome 111.0.0.0,,,2023-03-31 15:52:19,2023-03-31 15:52:20,"1,098s",PASSED
+"for ([i = 1, i <= 3, (i++)])",Chrome 111.0.0.0,,,2023-03-31 15:52:20,2023-03-31 15:52:49,"28,992s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-31 15:52:49,2023-03-31 15:52:50,"0,830s",PASSED
+Video,Chrome 111.0.0.0,,,2023-03-31 15:52:52,2023-03-31 15:52:52,"0,002s",PASSED
+,,,,,,,
+Test Cases/Bucles/Test_While,Chrome 111.0.0.0,,,2023-03-31 15:52:52,2023-03-31 15:53:11,"19,076s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-31 15:52:53,2023-03-31 15:52:54,"1,667s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 111.0.0.0,,,2023-03-31 15:52:54,2023-03-31 15:52:55,"0,874s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-31 15:52:55,2023-03-31 15:52:55,"0,144s",PASSED
+waitForPageLoad(30),Chrome 111.0.0.0,,,2023-03-31 15:52:55,2023-03-31 15:52:55,"0,019s",PASSED
+res = 0,Chrome 111.0.0.0,,,2023-03-31 15:52:55,2023-03-31 15:52:55,"0,001s",PASSED
+while (res != 8),Chrome 111.0.0.0,,,2023-03-31 15:52:55,2023-03-31 15:53:08,"13,150s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-31 15:53:08,2023-03-31 15:53:09,"0,856s",PASSED
+Video,Chrome 111.0.0.0,,,2023-03-31 15:53:11,2023-03-31 15:53:11,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales/Test_1,Chrome 111.0.0.0,,,2023-03-31 15:53:11,2023-03-31 15:53:14,"2,400s",PASSED
+if (num == 5),Chrome 111.0.0.0,,,2023-03-31 15:53:12,2023-03-31 15:53:12,"0,002s",PASSED
+if (num == 10),Chrome 111.0.0.0,,,2023-03-31 15:53:12,2023-03-31 15:53:12,"0,014s",PASSED
+Video,Chrome 111.0.0.0,,,2023-03-31 15:53:14,2023-03-31 15:53:14,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales/Test_2,Chrome 111.0.0.0,,,2023-03-31 15:53:14,2023-03-31 15:53:16,"2,318s",PASSED
+"if (nombre == ""Juan"")",Chrome 111.0.0.0,,,2023-03-31 15:53:14,2023-03-31 15:53:14,"0,005s",PASSED
+"if (nombre == ""JUan"")",Chrome 111.0.0.0,,,2023-03-31 15:53:14,2023-03-31 15:53:14,"0,001s",PASSED
+"if (nombre == ""jUan"")",Chrome 111.0.0.0,,,2023-03-31 15:53:14,2023-03-31 15:53:14,"0,001s",PASSED
+Video,Chrome 111.0.0.0,,,2023-03-31 15:53:16,2023-03-31 15:53:16,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales/Test_3,Chrome 111.0.0.0,,,2023-03-31 15:53:16,2023-03-31 15:53:18,"2,325s",PASSED
+if (num <= 5),Chrome 111.0.0.0,,,2023-03-31 15:53:16,2023-03-31 15:53:16,"0,005s",PASSED
+if (num >= 6),Chrome 111.0.0.0,,,2023-03-31 15:53:16,2023-03-31 15:53:16,"0,002s",PASSED
+if (num != 8),Chrome 111.0.0.0,,,2023-03-31 15:53:16,2023-03-31 15:53:16,"0,006s",PASSED
+"if (nombre.equals(""Pedro""))",Chrome 111.0.0.0,,,2023-03-31 15:53:16,2023-03-31 15:53:16,"0,001s",PASSED
+Video,Chrome 111.0.0.0,,,2023-03-31 15:53:18,2023-03-31 15:53:18,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales/Test_edad,Chrome 111.0.0.0,,,2023-03-31 15:53:18,2023-03-31 15:53:21,"2,366s",PASSED
+if (edad <= 17 || edad >= 1),Chrome 111.0.0.0,,,2023-03-31 15:53:19,2023-03-31 15:53:19,"0,004s",PASSED
+Video,Chrome 111.0.0.0,,,2023-03-31 15:53:21,2023-03-31 15:53:21,"0,001s",PASSED
+,,,,,,,
+Test Cases/Google/Test_1,Chrome 111.0.0.0,,,2023-03-31 15:53:21,2023-03-31 15:53:34,"13,744s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-31 15:53:21,2023-03-31 15:53:23,"1,625s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 111.0.0.0,,,2023-03-31 15:53:23,2023-03-31 15:53:24,"0,910s",PASSED
+waitForPageLoad(30),Chrome 111.0.0.0,,,2023-03-31 15:53:24,2023-03-31 15:53:24,"0,018s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-31 15:53:24,2023-03-31 15:53:24,"0,142s",PASSED
+"setText(findTestObject(""Google/Buscador_google""), ""ferr"")",Chrome 111.0.0.0,,,2023-03-31 15:53:24,2023-03-31 15:53:24,"0,717s",PASSED
+"waitForElementVisible(findTestObject(""Google/Ferrari""), 5)",Chrome 111.0.0.0,,,2023-03-31 15:53:24,2023-03-31 15:53:25,"0,698s",PASSED
+"click(findTestObject(""Google/Ferrari""))",Chrome 111.0.0.0,,,2023-03-31 15:53:25,2023-03-31 15:53:30,"4,607s",PASSED
+delay(2),Chrome 111.0.0.0,,,2023-03-31 15:53:30,2023-03-31 15:53:32,"2,035s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-31 15:53:32,2023-03-31 15:53:32,"0,651s",PASSED
+Video,Chrome 111.0.0.0,,,2023-03-31 15:53:34,2023-03-31 15:53:34,"0,001s",PASSED

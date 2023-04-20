@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set_text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c011ac30-e692-42b4-a320-a02bcf933eee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ee151a1-da5f-46a0-839a-2316a196323c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>6ee151a1-da5f-46a0-839a-2316a196323c</id>
+      <masked>false</masked>
+      <name>tiempo</name>
+   </variable>
+</TestCaseEntity>

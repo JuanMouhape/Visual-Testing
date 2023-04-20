@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "B6BB9263A886A1EC823AFF9A8585FD89",
+  "keywordClasses": [
+    {
+      "name": "com.helper.openBrowser2.AbrirNavegador2",
+      "keywordMethods": [
+        {
+          "name": "Navegar",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "tiempo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Integer",
+                "unresolvedClassName": "Integer",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

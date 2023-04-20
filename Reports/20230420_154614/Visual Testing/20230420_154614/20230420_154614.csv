@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Visual Testing,Chrome 112.0.0.0,,,2023-04-20 15:46:24,2023-04-20 15:46:49,"24,728s",PASSED
+,,,,,,,
+Test Cases/Visual Testing/Caso1,Chrome 112.0.0.0,,,2023-04-20 15:46:24,2023-04-20 15:46:49,"24,377s",PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-20 15:46:25,2023-04-20 15:46:28,"3,255s",PASSED
+"navigateToUrl(""https://www.baliarda.com.ar/"")",Chrome 112.0.0.0,,,2023-04-20 15:46:28,2023-04-20 15:46:36,"8,017s",PASSED
+waitForPageLoad(15),Chrome 112.0.0.0,,,2023-04-20 15:46:36,2023-04-20 15:46:37,"0,430s",PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-20 15:46:37,2023-04-20 15:46:37,"0,206s",PASSED
+"click(findTestObject(""Object Repository/VisualTesting/Page_Baliarda S.A. - Vida con Salud/a_CONTACTO""))",Chrome 112.0.0.0,,,2023-04-20 15:46:37,2023-04-20 15:46:40,"2,519s",PASSED
+"setText(findTestObject(""Object Repository/VisualTesting/Page_Baliarda S.A. - Contacto/input_Error de validacion en el formulario_Name""), ""Juan Cruz"")",Chrome 112.0.0.0,,,2023-04-20 15:46:40,2023-04-20 15:46:41,"1,591s",PASSED
+"setText(findTestObject(""Object Repository/VisualTesting/Page_Baliarda S.A. - Contacto/input_Error de validacion en el formulario_Email""), ""juancmouhape@gmail.com"")",Chrome 112.0.0.0,,,2023-04-20 15:46:41,2023-04-20 15:46:42,"0,886s",PASSED
+"setText(findTestObject(""Object Repository/VisualTesting/Page_Baliarda S.A. - Contacto/input_Error de validacion en el formulario_Phone""), ""2494887766"")",Chrome 112.0.0.0,,,2023-04-20 15:46:42,2023-04-20 15:46:43,"0,828s",PASSED
+"setText(findTestObject(""Object Repository/VisualTesting/Page_Baliarda S.A. - Contacto/input_Error de validacion en el formulario_Subject""), ""Prueba Visual testing"")",Chrome 112.0.0.0,,,2023-04-20 15:46:43,2023-04-20 15:46:44,"0,887s",PASSED
+"setText(findTestObject(""Object Repository/VisualTesting/Page_Baliarda S.A. - Contacto/textarea_Error de validacion en el formular_4358bd""), ""Descripcion"")",Chrome 112.0.0.0,,,2023-04-20 15:46:44,2023-04-20 15:46:45,"0,842s",PASSED
+"takeScreenshotAsCheckpoint(""imagenComparadora"")",Chrome 112.0.0.0,,,2023-04-20 15:46:45,2023-04-20 15:46:46,"1,314s",PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-20 15:46:46,2023-04-20 15:46:47,"0,749s",PASSED
+Video,Chrome 112.0.0.0,,,2023-04-20 15:46:49,2023-04-20 15:46:49,"0,001s",PASSED

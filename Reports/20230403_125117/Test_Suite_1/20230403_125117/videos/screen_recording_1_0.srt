@@ -1,0 +1,20 @@
+1
+00:00:00,806 --> 00:00:05,891
+1. openBrowser("")
+
+2
+00:00:05,918 --> 00:00:08,073
+5. navigateToUrl("https://testpages.herokuapp.com/styled/file-upload-test.html")
+
+3
+00:00:08,074 --> 00:00:08,274
+9. maximizeWindow()
+
+4
+00:00:08,275 --> 00:00:09,155
+13. uploadFile(findTestObject("Carga_Archivo/Page_Upload a File/Cargar"), "C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\Imagen de WhatsApp 2022-11-14 a las 14.26.24.jpg")
+
+5
+00:00:09,156 --> 00:00:09,380
+17. delay(tiempo)
+

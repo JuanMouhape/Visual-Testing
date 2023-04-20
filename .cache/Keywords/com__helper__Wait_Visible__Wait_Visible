@@ -1,0 +1,56 @@
+{
+  "keywordFileContentHash": "39316120529446B857959F0169C72719",
+  "keywordClasses": [
+    {
+      "name": "com.helper.Wait_Visible.Wait_Visible",
+      "keywordMethods": [
+        {
+          "name": "visible",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "textoABuscar",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "tiempo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Integer",
+                "unresolvedClassName": "Integer",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

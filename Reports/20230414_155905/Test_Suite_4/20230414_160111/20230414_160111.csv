@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_4,Chrome 111.0.0.0,,,2023-04-14 16:01:19,2023-04-14 16:03:16,"1m - 56,812s",FAILED
+,,,,,,,
+Test Cases/Select/Select_Combo,Chrome 111.0.0.0,,,2023-04-14 16:01:19,2023-04-14 16:01:39,"19,289s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-14 16:01:20,2023-04-14 16:01:22,"2,548s",PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 111.0.0.0,,,2023-04-14 16:01:22,2023-04-14 16:01:24,"1,546s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-14 16:01:24,2023-04-14 16:01:24,"0,175s",PASSED
+"click(findTestObject(""Select/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva""))",Chrome 111.0.0.0,,,2023-04-14 16:01:24,2023-04-14 16:01:26,"1,641s",PASSED
+"selectOptionByLabel(findTestObject(""Select/Page_Facebook - Entrar o registrarse/Combo_dia""), ""9"", false)",Chrome 111.0.0.0,,,2023-04-14 16:01:26,2023-04-14 16:01:27,"1,414s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-04-14 16:01:27,2023-04-14 16:01:29,"2,060s",PASSED
+"takeScreenshot(""C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\test.png"")",Chrome 111.0.0.0,,,2023-04-14 16:01:29,2023-04-14 16:01:30,"0,448s",PASSED
+"selectOptionByIndex(findTestObject(""Select/Page_Facebook - Entrar o registrarse/Combo_dia""), 3)",Chrome 111.0.0.0,,,2023-04-14 16:01:30,2023-04-14 16:01:31,"1,087s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-04-14 16:01:31,2023-04-14 16:01:33,"2,012s",PASSED
+"selectOptionByValue(findTestObject(""Select/Page_Facebook - Entrar o registrarse/Combo_dia""), ""9"", false)",Chrome 111.0.0.0,,,2023-04-14 16:01:33,2023-04-14 16:01:34,"1,014s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-04-14 16:01:34,2023-04-14 16:01:36,"2,011s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-14 16:01:36,2023-04-14 16:01:37,"0,774s",PASSED
+Video,Chrome 111.0.0.0,,,2023-04-14 16:01:39,2023-04-14 16:01:39,"0,002s",PASSED
+,,,,,,,
+Test Cases/Set_text_Combo_text/Set_text,Chrome 111.0.0.0,,,2023-04-14 16:01:39,2023-04-14 16:02:05,"26,526s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-14 16:01:39,2023-04-14 16:01:40,"1,327s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 111.0.0.0,,,2023-04-14 16:01:40,2023-04-14 16:01:45,"4,757s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-14 16:01:45,2023-04-14 16:01:45,"0,178s",PASSED
+"setText(findTestObject(""Object Repository/Set_text/Page_DEMOQA/input_Name_firstName""), ""Juan Cruz"")",Chrome 111.0.0.0,,,2023-04-14 16:01:45,2023-04-14 16:01:46,"1,086s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-04-14 16:01:46,2023-04-14 16:01:48,"2,017s",PASSED
+"clearText(findTestObject(""Set_text/Page_DEMOQA/input_Name_firstName""))",Chrome 111.0.0.0,,,2023-04-14 16:01:48,2023-04-14 16:01:49,"0,395s",PASSED
+"sendKeys(findTestObject(""Set_text/Page_DEMOQA/input_Name_firstName""), ""Pedro"")",Chrome 111.0.0.0,,,2023-04-14 16:01:49,2023-04-14 16:01:49,"0,447s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-04-14 16:01:49,2023-04-14 16:01:51,"2,016s",PASSED
+"check(findTestObject(""Set_text/Page_DEMOQA/label_Male""))",Chrome 111.0.0.0,,,2023-04-14 16:01:51,2023-04-14 16:01:52,"0,467s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-04-14 16:01:52,2023-04-14 16:01:54,"2,012s",PASSED
+"scrollToElement(findTestObject(""Set_text/Page_DEMOQA/label_Sports""), tiempo)",Chrome 111.0.0.0,,,2023-04-14 16:01:54,2023-04-14 16:01:54,"0,496s",PASSED
+"check(findTestObject(""Set_text/Page_DEMOQA/label_Sports""))",Chrome 111.0.0.0,,,2023-04-14 16:01:54,2023-04-14 16:01:55,"0,443s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-04-14 16:01:55,2023-04-14 16:01:57,"2,020s",PASSED
+"click(findTestObject(""Set_text/Page_DEMOQA/Link""))",Chrome 111.0.0.0,,,2023-04-14 16:01:57,2023-04-14 16:02:00,"3,372s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-04-14 16:02:00,2023-04-14 16:02:02,"2,012s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-14 16:02:02,2023-04-14 16:02:03,"1,056s",PASSED
+Video,Chrome 111.0.0.0,,,2023-04-14 16:02:05,2023-04-14 16:02:05,"0,002s",PASSED
+,,,,,,,
+Test Cases/Reto_Xpath/Reto_xpath,Chrome 111.0.0.0,,,2023-04-14 16:02:05,2023-04-14 16:02:57,"52,153s",FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-14 16:02:05,2023-04-14 16:02:07,"1,286s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 111.0.0.0,,,2023-04-14 16:02:07,2023-04-14 16:02:12,"5,089s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-14 16:02:12,2023-04-14 16:02:12,"0,160s",PASSED
+"setText(findTestObject(""Reto_xpath/Nombre""), ""Juan Cruz"")",Chrome 111.0.0.0,,,2023-04-14 16:02:12,2023-04-14 16:02:14,"1,581s",PASSED
+"setText(findTestObject(""Reto_xpath/Apellido""), ""Mouhape"")",Chrome 111.0.0.0,,,2023-04-14 16:02:14,2023-04-14 16:02:14,"0,807s",PASSED
+"setText(findTestObject(""Reto_xpath/Email""), ""juancmouhape@gmail.com"")",Chrome 111.0.0.0,,,2023-04-14 16:02:14,2023-04-14 16:02:15,"0,767s",PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-14 16:02:15,2023-04-14 16:02:17,"2,009s",PASSED
+"scrollToElement(findTestObject(""Reto_xpath/Boton_Submit""), 2)",Chrome 111.0.0.0,,,2023-04-14 16:02:17,2023-04-14 16:02:18,"0,383s",PASSED
+delay(3),Chrome 111.0.0.0,,,2023-04-14 16:02:18,2023-04-14 16:02:21,"3,018s",PASSED
+"click(findTestObject(""Reto_xpath/Boton_Submit""))",Chrome 111.0.0.0,,,2023-04-14 16:02:21,2023-04-14 16:02:55,"34,538s",FAILED
+Video,Chrome 111.0.0.0,,,2023-04-14 16:02:57,2023-04-14 16:02:57,"0,002s",PASSED
+,,,,,,,
+Test Cases/Reto_Select/Reto_Select,Chrome 111.0.0.0,,,2023-04-14 16:02:57,2023-04-14 16:03:16,"18,527s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-14 16:02:58,2023-04-14 16:03:00,"2,096s",PASSED
+"navigateToUrl(""https://testsheepnz.github.io/BasicCalculator.html"")",Chrome 111.0.0.0,,,2023-04-14 16:03:00,2023-04-14 16:03:01,"0,881s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-04-14 16:03:01,2023-04-14 16:03:01,"0,165s",PASSED
+"setText(findTestObject(""Object Repository/Reto_Select/Page_Basic Calculator/number1""), ""5"")",Chrome 111.0.0.0,,,2023-04-14 16:03:01,2023-04-14 16:03:02,"0,803s",PASSED
+"setText(findTestObject(""Object Repository/Reto_Select/Page_Basic Calculator/number2""), ""5"")",Chrome 111.0.0.0,,,2023-04-14 16:03:02,2023-04-14 16:03:02,"0,786s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Reto_Select/Page_Basic Calculator/combo""), ""0"", true)",Chrome 111.0.0.0,,,2023-04-14 16:03:02,2023-04-14 16:03:04,"1,134s",PASSED
+"click(findTestObject(""Object Repository/Reto_Select/Page_Basic Calculator/calculateButton""))",Chrome 111.0.0.0,,,2023-04-14 16:03:04,2023-04-14 16:03:04,"0,439s",PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-14 16:03:04,2023-04-14 16:03:06,"2,008s",PASSED
+"setText(findTestObject(""Object Repository/Reto_Select/Page_Basic Calculator/number1""), ""10"")",Chrome 111.0.0.0,,,2023-04-14 16:03:06,2023-04-14 16:03:07,"0,692s",PASSED
+"setText(findTestObject(""Object Repository/Reto_Select/Page_Basic Calculator/number2""), ""2"")",Chrome 111.0.0.0,,,2023-04-14 16:03:07,2023-04-14 16:03:07,"0,711s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Reto_Select/Page_Basic Calculator/combo""), ""3"", true)",Chrome 111.0.0.0,,,2023-04-14 16:03:07,2023-04-14 16:03:09,"1,238s",PASSED
+"click(findTestObject(""Object Repository/Reto_Select/Page_Basic Calculator/calculateButton""))",Chrome 111.0.0.0,,,2023-04-14 16:03:09,2023-04-14 16:03:09,"0,395s",PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-14 16:03:09,2023-04-14 16:03:11,"2,022s",PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-14 16:03:11,2023-04-14 16:03:13,"2,018s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-14 16:03:13,2023-04-14 16:03:14,"0,696s",PASSED
+Video,Chrome 111.0.0.0,,,2023-04-14 16:03:16,2023-04-14 16:03:16,"0,001s",PASSED

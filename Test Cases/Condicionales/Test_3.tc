@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d87b1cae-07e9-4b22-a0fa-301abdbbca68</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c15dbbf-552e-42e9-861a-b2de173ce16f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01acbac8-c955-4b78-9508-ea71ef34c85f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>3c15dbbf-552e-42e9-861a-b2de173ce16f</id>
+      <masked>false</masked>
+      <name>num</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pedro\r\n'</defaultValue>
+      <description></description>
+      <id>01acbac8-c955-4b78-9508-ea71ef34c85f</id>
+      <masked>false</masked>
+      <name>nombre</name>
+   </variable>
+</TestCaseEntity>

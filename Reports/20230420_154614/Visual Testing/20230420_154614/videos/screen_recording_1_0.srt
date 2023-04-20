@@ -1,0 +1,48 @@
+1
+00:00:00,503 --> 00:00:03,752
+1. openBrowser("")
+
+2
+00:00:03,763 --> 00:00:11,777
+5. navigateToUrl("https://www.baliarda.com.ar/")
+
+3
+00:00:11,778 --> 00:00:12,208
+9. waitForPageLoad(15)
+
+4
+00:00:12,210 --> 00:00:12,415
+13. maximizeWindow()
+
+5
+00:00:12,416 --> 00:00:14,934
+17. click(findTestObject("Object Repository/VisualTesting/Page_Baliarda S.A. - Vida con Salud/a_CONTACTO"))
+
+6
+00:00:14,934 --> 00:00:16,527
+21. setText(findTestObject("Object Repository/VisualTesting/Page_Baliarda S.A. - Contacto/input_Error de validacion en el formulario_Name"), "Juan Cruz")
+
+7
+00:00:16,527 --> 00:00:17,411
+25. setText(findTestObject("Object Repository/VisualTesting/Page_Baliarda S.A. - Contacto/input_Error de validacion en el formulario_Email"), "juancmouhape@gmail.com")
+
+8
+00:00:17,412 --> 00:00:18,240
+29. setText(findTestObject("Object Repository/VisualTesting/Page_Baliarda S.A. - Contacto/input_Error de validacion en el formulario_Phone"), "2494887766")
+
+9
+00:00:18,242 --> 00:00:19,129
+33. setText(findTestObject("Object Repository/VisualTesting/Page_Baliarda S.A. - Contacto/input_Error de validacion en el formulario_Subject"), "Prueba Visual testing")
+
+10
+00:00:19,130 --> 00:00:19,972
+37. setText(findTestObject("Object Repository/VisualTesting/Page_Baliarda S.A. - Contacto/textarea_Error de validacion en el formular_4358bd"), "Descripcion")
+
+11
+00:00:19,973 --> 00:00:21,286
+41. takeScreenshotAsCheckpoint("imagenComparadora")
+
+12
+00:00:21,287 --> 00:00:22,038
+45. closeBrowser()
+

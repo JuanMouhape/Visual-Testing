@@ -1,0 +1,8 @@
+1
+00:00:00,001 --> 00:00:01,346
+1. openBrowser("")
+
+2
+00:00:01,347 --> 00:01:11,017
+5. navigateToUrl("https://demoqa.com/automation-practice-form")
+

@@ -1,0 +1,48 @@
+1
+00:00:00,435 --> 00:00:03,511
+1. openBrowser("")
+
+2
+00:00:03,527 --> 00:00:04,736
+5. navigateToUrl("https://www.facebook.com/")
+
+3
+00:00:04,737 --> 00:00:04,912
+9. maximizeWindow()
+
+4
+00:00:04,913 --> 00:00:06,527
+13. click(findTestObject("Select/Page_Facebook - Entrar o registrarse/a_Crear cuenta nueva"))
+
+5
+00:00:06,527 --> 00:00:09,434
+17. selectOptionByLabel(findTestObject("Select/Page_Facebook - Entrar o registrarse/Combo_dia"), "9", false)
+
+6
+00:00:09,435 --> 00:00:11,486
+21. delay(tiempo)
+
+7
+00:00:11,488 --> 00:00:12,134
+25. takeScreenshot("C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\test.png")
+
+8
+00:00:12,176 --> 00:00:13,222
+29. selectOptionByIndex(findTestObject("Select/Page_Facebook - Entrar o registrarse/Combo_dia"), 3)
+
+9
+00:00:13,223 --> 00:00:15,243
+33. delay(tiempo)
+
+10
+00:00:15,244 --> 00:00:16,154
+37. selectOptionByValue(findTestObject("Select/Page_Facebook - Entrar o registrarse/Combo_dia"), "9", false)
+
+11
+00:00:16,155 --> 00:00:18,172
+41. delay(tiempo)
+
+12
+00:00:18,172 --> 00:00:18,897
+45. closeBrowser()
+

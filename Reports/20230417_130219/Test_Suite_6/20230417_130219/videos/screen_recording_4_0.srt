@@ -1,0 +1,40 @@
+1
+00:00:00,670 --> 00:00:02,637
+1. openBrowser("")
+
+2
+00:00:02,638 --> 00:00:07,582
+5. navigateToUrl("https://demoqa.com/text-box")
+
+3
+00:00:07,583 --> 00:00:07,730
+9. maximizeWindow()
+
+4
+00:00:07,731 --> 00:00:09,269
+13. setText(findTestObject("Object Repository/Script/Page_DEMOQA/input_Full Name_userName"), "Juan Cruz")
+
+5
+00:00:09,270 --> 00:00:10,015
+17. setText(findTestObject("Object Repository/Script/Page_DEMOQA/input_Email_userEmail"), "juancmouhape@gmail.com")
+
+6
+00:00:10,016 --> 00:00:10,733
+21. setText(findTestObject("Object Repository/Script/Page_DEMOQA/textarea_Current Address_currentAddress"), "Direccion Uno")
+
+7
+00:00:10,735 --> 00:00:11,440
+25. setText(findTestObject("Object Repository/Script/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "Direccion Dos")
+
+8
+00:00:11,442 --> 00:00:11,461
+29. scrollToPosition(0, 280)
+
+9
+00:00:11,462 --> 00:00:11,855
+33. click(findTestObject("Object Repository/Script/Page_DEMOQA/button_Submit"))
+
+10
+00:00:11,857 --> 00:00:12,539
+37. closeBrowser()
+

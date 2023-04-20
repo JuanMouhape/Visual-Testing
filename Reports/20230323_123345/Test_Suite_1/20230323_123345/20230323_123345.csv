@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_1,Chrome 111.0.0.0,,,2023-03-23 12:33:54,2023-03-23 12:34:59,"1m - 4,534s",PASSED
+,,,,,,,
+Test Cases/Carga_Archivo/Carga_Archivo,Chrome 111.0.0.0,,,2023-03-23 12:33:55,2023-03-23 12:34:17,"21,771s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-23 12:33:55,2023-03-23 12:34:02,"6,158s",PASSED
+"navigateToUrl(""https://testpages.herokuapp.com/styled/file-upload-test.html"")",Chrome 111.0.0.0,,,2023-03-23 12:34:02,2023-03-23 12:34:03,"1,445s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-23 12:34:03,2023-03-23 12:34:03,"0,168s",PASSED
+"uploadFile(findTestObject(""Carga_Archivo/Page_Upload a File/Cargar""), ""C:\Katalon\Proyectos\Proyecto_Uno\Imagenes\Imagen de WhatsApp 2022-11-14 a las 14.26.24.jpg"")",Chrome 111.0.0.0,,,2023-03-23 12:34:03,2023-03-23 12:34:04,"0,569s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-03-23 12:34:04,2023-03-23 12:34:06,"2,406s",PASSED
+"click(findTestObject(""Object Repository/Carga_Archivo/Page_Upload a File/input_What type is it_filetype""))",Chrome 111.0.0.0,,,2023-03-23 12:34:06,2023-03-23 12:34:08,"1,947s",PASSED
+"click(findTestObject(""Object Repository/Carga_Archivo/Page_Upload a File/input_A General File_upload""))",Chrome 111.0.0.0,,,2023-03-23 12:34:08,2023-03-23 12:34:11,"3,258s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-03-23 12:34:11,2023-03-23 12:34:13,"2,018s",PASSED
+"verifyElementText(findTestObject(""Carga_Archivo/Page_Upload a File/ArchivoCargado""), ""You uploaded this image:"")",Chrome 111.0.0.0,,,2023-03-23 12:34:13,2023-03-23 12:34:14,"0,443s",PASSED
+delay(tiempo),Chrome 111.0.0.0,,,2023-03-23 12:34:14,2023-03-23 12:34:16,"2,017s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-23 12:34:16,2023-03-23 12:34:17,"0,712s",PASSED
+,,,,,,,
+Test Cases/Focus/Focus,Chrome 111.0.0.0,,,2023-03-23 12:34:17,2023-03-23 12:34:36,"18,897s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-23 12:34:17,2023-03-23 12:34:19,"1,667s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 111.0.0.0,,,2023-03-23 12:34:19,2023-03-23 12:34:25,"6,471s",PASSED
+waitForPageLoad(30),Chrome 111.0.0.0,,,2023-03-23 12:34:25,2023-03-23 12:34:25,"0,183s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-23 12:34:25,2023-03-23 12:34:26,"0,472s",PASSED
+"focus(findTestObject(""Focus/nombre""))",Chrome 111.0.0.0,,,2023-03-23 12:34:26,2023-03-23 12:34:26,"0,467s",PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-23 12:34:26,2023-03-23 12:34:29,"3,019s",PASSED
+"focus(findTestObject(""Focus/apellido""))",Chrome 111.0.0.0,,,2023-03-23 12:34:29,2023-03-23 12:34:30,"0,417s",PASSED
+delay(5),Chrome 111.0.0.0,,,2023-03-23 12:34:30,2023-03-23 12:34:35,"5,016s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-23 12:34:35,2023-03-23 12:34:36,"0,670s",PASSED
+,,,,,,,
+Test Cases/Google/Test_1,Chrome 111.0.0.0,,,2023-03-23 12:34:36,2023-03-23 12:34:46,"10,395s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-23 12:34:36,2023-03-23 12:34:37,"1,413s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 111.0.0.0,,,2023-03-23 12:34:37,2023-03-23 12:34:38,"0,749s",PASSED
+waitForPageLoad(30),Chrome 111.0.0.0,,,2023-03-23 12:34:38,2023-03-23 12:34:38,"0,031s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-23 12:34:38,2023-03-23 12:34:38,"0,151s",PASSED
+"setText(findTestObject(""Google/Buscador_google""), ""ferr"")",Chrome 111.0.0.0,,,2023-03-23 12:34:38,2023-03-23 12:34:40,"1,968s",PASSED
+"waitForElementVisible(findTestObject(""Google/Ferrari""), 5)",Chrome 111.0.0.0,,,2023-03-23 12:34:40,2023-03-23 12:34:41,"0,951s",PASSED
+"click(findTestObject(""Google/Ferrari""))",Chrome 111.0.0.0,,,2023-03-23 12:34:41,2023-03-23 12:34:43,"2,085s",PASSED
+delay(2),Chrome 111.0.0.0,,,2023-03-23 12:34:43,2023-03-23 12:34:45,"2,014s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-23 12:34:45,2023-03-23 12:34:46,"0,711s",PASSED
+,,,,,,,
+Test Cases/Mouse_doble_click/Test_1,Chrome 111.0.0.0,,,2023-03-23 12:34:46,2023-03-23 12:34:59,"13,030s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-23 12:34:46,2023-03-23 12:34:48,"1,319s",PASSED
+"navigateToUrl(""https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx"")",Chrome 111.0.0.0,,,2023-03-23 12:34:48,2023-03-23 12:34:51,"3,550s",PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-23 12:34:51,2023-03-23 12:34:51,"0,138s",PASSED
+waitForPageLoad(30),Chrome 111.0.0.0,,,2023-03-23 12:34:51,2023-03-23 12:34:51,"0,019s",PASSED
+"scrollToPosition(0, 150)",Chrome 111.0.0.0,,,2023-03-23 12:34:51,2023-03-23 12:34:51,"0,048s",PASSED
+"click(findTestObject(""Double_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_Island""))",Chrome 111.0.0.0,,,2023-03-23 12:34:51,2023-03-23 12:34:56,"4,196s",PASSED
+"waitForElementClickable(findTestObject(""Double_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_Island""), 5)",Chrome 111.0.0.0,,,2023-03-23 12:34:56,2023-03-23 12:34:58,"2,197s",PASSED
+"doubleClick(findTestObject(""Object Repository/Double_click/Page_Telerik Web UI TreeView WebForms TreeV_78f562/span_Island""))",Chrome 111.0.0.0,,,2023-03-23 12:34:58,2023-03-23 12:34:58,"0,551s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-23 12:34:58,2023-03-23 12:34:59,"0,668s",PASSED
